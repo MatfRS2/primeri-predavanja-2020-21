@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloConsoleGenerics", "01-konstrukcije-jezika\06-generics\HelloConsoleGenerics.csproj", "{E865CDCD-FBE1-4AE1-BF59-DCE88B46FF1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-konstrukcije-jezika", "01-konstrukcije-jezika", "{C581030E-4957-438C-A2A9-0E98A3AE86A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-generics", "06-generics", "{696373B6-197F-4E5D-AC49-649E46D4C20E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E865CDCD-FBE1-4AE1-BF59-DCE88B46FF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E865CDCD-FBE1-4AE1-BF59-DCE88B46FF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E865CDCD-FBE1-4AE1-BF59-DCE88B46FF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E865CDCD-FBE1-4AE1-BF59-DCE88B46FF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E865CDCD-FBE1-4AE1-BF59-DCE88B46FF1B} = {696373B6-197F-4E5D-AC49-649E46D4C20E}
+		{696373B6-197F-4E5D-AC49-649E46D4C20E} = {C581030E-4957-438C-A2A9-0E98A3AE86A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A88110C-6C4D-4227-A047-05BE7B639B9F}
+	EndGlobalSection
+EndGlobal
