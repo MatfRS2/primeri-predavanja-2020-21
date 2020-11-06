@@ -1,0 +1,4 @@
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\11-generics\02-interface-equatable\obj\Debug\netcoreapp3.1\Program.csprojAssemblyReference.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\11-generics\02-interface-equatable\obj\Debug\netcoreapp3.1\Program.AssemblyInfoInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\11-generics\02-interface-equatable\obj\Debug\netcoreapp3.1\Program.AssemblyInfo.cs
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\11-generics\02-interface-equatable\obj\Debug\netcoreapp3.1\Program.csproj.CoreCompileInputs.cache
