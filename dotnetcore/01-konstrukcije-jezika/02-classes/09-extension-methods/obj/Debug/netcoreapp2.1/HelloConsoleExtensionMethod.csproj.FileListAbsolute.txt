@@ -1,0 +1,11 @@
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\bin\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.deps.json
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\bin\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.runtimeconfig.json
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\bin\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.runtimeconfig.dev.json
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\bin\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.dll
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\bin\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.pdb
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\obj\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.AssemblyInfoInputs.cache
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\obj\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.AssemblyInfo.cs
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\obj\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.csproj.CoreCompileInputs.cache
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\obj\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.dll
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\obj\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.pdb
+D:\vlado\Courses\Matf\MatfRS2----RS2\predavanja\primeri-dotnetcore\HelloWorld\HelloConsoleExtensionMethod\obj\Debug\netcoreapp2.1\HelloConsoleExtensionMethod.genruntimeconfig.cache
