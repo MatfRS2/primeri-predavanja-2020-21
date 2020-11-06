@@ -12,13 +12,17 @@ namespace HelloConsole
     {
         void Paint();
     }
-    
+
     public class SampleClass : IControl, ISurface
     {
-        // Both ISurface.Paint and IControl.Paint call this method.
-        public void Paint()
+        void IControl.Paint()
         {
-            Console.WriteLine("Paint method in SampleClass");
+            System.Console.WriteLine("IControl.Paint");
+        }
+
+        void ISurface.Paint()
+        {
+            System.Console.WriteLine("ISurface.Paint");
         }
     }
 
@@ -30,14 +34,11 @@ namespace HelloConsole
             IControl control = sample;
             ISurface surface = sample;
 
-            // The following lines all call the same method.
-            sample.Paint();
             control.Paint();
             surface.Paint();
             // Output:
-            // Paint method in SampleClass
-            // Paint method in SampleClass
-            // Paint method in SampleClass
+            // IControl.Paint
+            // ISurface.Paint
         }
     }
 }
