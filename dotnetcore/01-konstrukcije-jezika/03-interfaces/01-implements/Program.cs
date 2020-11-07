@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace HelloConsole
+namespace RS2.InterfaceImplementation
 {
     public interface IControl
     {

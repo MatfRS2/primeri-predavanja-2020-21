@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace HelloConsole
+namespace RS2.ImplementsExplicit
 {
     public interface IControl
     {
@@ -36,9 +36,9 @@ namespace HelloConsole
 
             control.Paint();
             surface.Paint();
-            // Output:
-            // IControl.Paint
-            // ISurface.Paint
         }
+        // Output:
+        // IControl.Paint
+        // ISurface.Paint
     }
 }
