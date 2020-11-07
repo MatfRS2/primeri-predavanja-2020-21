@@ -8,8 +8,8 @@ It is the default access modifier in C#.
 */
 using System; 
 
-//namespace DiffernetFromInternalAccessModifier { 
-namespace InternalAccessModifier { 
+//namespace RS2.DiffernetFromModifiersInternal { 
+namespace RS2.ModifiersInternal { 
 
 
 class Program { 

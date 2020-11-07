@@ -1,0 +1,12 @@
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\bin\Debug\netcoreapp3.1\07.method.override.exe
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\bin\Debug\netcoreapp3.1\07.method.override.deps.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\bin\Debug\netcoreapp3.1\07.method.override.runtimeconfig.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\bin\Debug\netcoreapp3.1\07.method.override.runtimeconfig.dev.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\bin\Debug\netcoreapp3.1\07.method.override.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\bin\Debug\netcoreapp3.1\07.method.override.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\obj\Debug\netcoreapp3.1\07.method.override.AssemblyInfoInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\obj\Debug\netcoreapp3.1\07.method.override.AssemblyInfo.cs
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\obj\Debug\netcoreapp3.1\07.method.override.csproj.CoreCompileInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\obj\Debug\netcoreapp3.1\07.method.override.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\obj\Debug\netcoreapp3.1\07.method.override.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\07-override\obj\Debug\netcoreapp3.1\07.method.override.genruntimeconfig.cache

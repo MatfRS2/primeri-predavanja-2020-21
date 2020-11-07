@@ -7,7 +7,7 @@ the containing class within or outside the current Assembly.
 */
 using System; 
 
-namespace RS2 { 
+namespace RS2.ModifiersProtectedInternal { 
 
 class Potomak : Roditelj { 
 

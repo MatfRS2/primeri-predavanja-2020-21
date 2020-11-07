@@ -1,6 +1,6 @@
 using System;
 
-namespace ModifiersPublic
+namespace RS2.ModifiersPublic
 {
 
 class Student { 

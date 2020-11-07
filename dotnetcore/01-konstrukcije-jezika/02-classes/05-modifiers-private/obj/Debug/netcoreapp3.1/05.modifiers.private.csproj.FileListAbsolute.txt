@@ -1,0 +1,12 @@
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\obj\Debug\netcoreapp3.1\05.modifiers.private.AssemblyInfoInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\obj\Debug\netcoreapp3.1\05.modifiers.private.AssemblyInfo.cs
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\obj\Debug\netcoreapp3.1\05.modifiers.private.csproj.CoreCompileInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\bin\Debug\netcoreapp3.1\05.modifiers.private.exe
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\bin\Debug\netcoreapp3.1\05.modifiers.private.deps.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\bin\Debug\netcoreapp3.1\05.modifiers.private.runtimeconfig.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\bin\Debug\netcoreapp3.1\05.modifiers.private.runtimeconfig.dev.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\bin\Debug\netcoreapp3.1\05.modifiers.private.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\bin\Debug\netcoreapp3.1\05.modifiers.private.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\obj\Debug\netcoreapp3.1\05.modifiers.private.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\obj\Debug\netcoreapp3.1\05.modifiers.private.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\05-modifiers-private\obj\Debug\netcoreapp3.1\05.modifiers.private.genruntimeconfig.cache

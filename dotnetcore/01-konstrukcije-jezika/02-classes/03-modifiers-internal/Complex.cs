@@ -1,6 +1,6 @@
 using System; 
 
-namespace InternalAccessModifier { 
+namespace RS2.ModifiersInternal { 
 
 // Declare class Complex as internal 
 internal class Complex { 

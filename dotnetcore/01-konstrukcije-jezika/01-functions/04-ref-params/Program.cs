@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RefParams
+namespace RS2.RefParams
 {
     class Program
     {

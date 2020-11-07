@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace HelloConsole
+namespace RS2.MethodOverride
 {
     // roditeljska klasa 
     public class Roditelj

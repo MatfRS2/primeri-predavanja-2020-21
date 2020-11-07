@@ -10,7 +10,7 @@ other access modifiers.
 */
 using System;
 
-namespace ModifiersPublic
+namespace RS2.ModifiersPublic
 {
 
 class Program {  

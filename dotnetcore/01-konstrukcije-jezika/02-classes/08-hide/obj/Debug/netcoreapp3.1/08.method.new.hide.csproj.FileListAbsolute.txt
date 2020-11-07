@@ -1,0 +1,12 @@
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\bin\Debug\netcoreapp3.1\08.method.new.hide.exe
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\bin\Debug\netcoreapp3.1\08.method.new.hide.deps.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\bin\Debug\netcoreapp3.1\08.method.new.hide.runtimeconfig.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\bin\Debug\netcoreapp3.1\08.method.new.hide.runtimeconfig.dev.json
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\bin\Debug\netcoreapp3.1\08.method.new.hide.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\bin\Debug\netcoreapp3.1\08.method.new.hide.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\obj\Debug\netcoreapp3.1\08.method.new.hide.AssemblyInfoInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\obj\Debug\netcoreapp3.1\08.method.new.hide.AssemblyInfo.cs
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\obj\Debug\netcoreapp3.1\08.method.new.hide.csproj.CoreCompileInputs.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\obj\Debug\netcoreapp3.1\08.method.new.hide.dll
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\obj\Debug\netcoreapp3.1\08.method.new.hide.pdb
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\08-hide\obj\Debug\netcoreapp3.1\08.method.new.hide.genruntimeconfig.cache

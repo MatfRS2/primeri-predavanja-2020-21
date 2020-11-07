@@ -6,7 +6,7 @@ current assembly.
 */
 using System; 
 
-namespace PrivateProtectedAccessModifier { 
+namespace RS2.ModifiersPrivateProtected { 
 
 class Roditelj { 
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace N05RefParamsClass
+namespace RS2.N05RefParamsClass
 {
 
 class Complex { 

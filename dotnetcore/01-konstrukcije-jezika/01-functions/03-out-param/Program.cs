@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OutParams
+namespace RS2.OutParams
 {
     class Program
     {

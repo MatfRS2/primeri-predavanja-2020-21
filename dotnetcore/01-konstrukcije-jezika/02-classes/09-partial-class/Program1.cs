@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloConsole
+namespace RS2.PartilaClass
 {
     public partial class Program
     {

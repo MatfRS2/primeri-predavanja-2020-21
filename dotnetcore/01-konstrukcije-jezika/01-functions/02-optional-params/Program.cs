@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 
-namespace OptionalParams
+namespace RS2.OptionalParams
 {
     class Program
     {

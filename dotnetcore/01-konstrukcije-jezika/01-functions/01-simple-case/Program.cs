@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 
-namespace SimpleCase
+namespace RS2.SimpleCase
 {
     class Program
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace ExtensionMethods
+namespace RS2.ExtensionMethods
 {
     public static class Prosirenje
     {

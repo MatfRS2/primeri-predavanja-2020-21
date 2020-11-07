@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace ExtensionMethods
+namespace RS2.ExtensionMethods
 {
     partial class Program
     {
