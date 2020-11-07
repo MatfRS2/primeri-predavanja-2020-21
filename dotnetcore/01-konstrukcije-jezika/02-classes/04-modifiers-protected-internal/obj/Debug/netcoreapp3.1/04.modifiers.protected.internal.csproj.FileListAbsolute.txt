@@ -10,3 +10,4 @@ C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstr
 C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\04-modifiers-protected-internal\obj\Debug\netcoreapp3.1\04.modifiers.protected.internal.dll
 C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\04-modifiers-protected-internal\obj\Debug\netcoreapp3.1\04.modifiers.protected.internal.pdb
 C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\04-modifiers-protected-internal\obj\Debug\netcoreapp3.1\04.modifiers.protected.internal.genruntimeconfig.cache
+C:\vlado\Courses\Matf\MatfRS2----primeri-predavanja-2020-21\dotnetcore\01-konstrukcije-jezika\02-classes\04-modifiers-protected-internal\obj\Debug\netcoreapp3.1\04.modifiers.protected.internal.csprojAssemblyReference.cache
