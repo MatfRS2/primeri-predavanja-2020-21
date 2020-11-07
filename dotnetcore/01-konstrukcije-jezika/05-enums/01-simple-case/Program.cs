@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace HelloConsoleEnums
+namespace RS2.SimpleEnum
 {
     enum Color
     {
