@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 
-namespace HelloConsole
+namespace N01SimpleCase
 {
     class Program
     {
