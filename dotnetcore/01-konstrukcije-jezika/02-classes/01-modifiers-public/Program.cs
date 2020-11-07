@@ -10,10 +10,8 @@ other access modifiers.
 */
 using System;
 
-namespace PublicAccessModifier
+namespace ModifiersPublic
 {
-
-
 
 class Program {  
     

@@ -49,6 +49,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.out.params", "01-konstru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ref.params", "01-konstrukcije-jezika\01-functions\04-ref-params\04.ref.params.csproj", "{3749779F-4050-4847-AF34-DA6698209347}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ref.params.class", "01-konstrukcije-jezika\01-functions\05-ref-params-class\05.ref.params.class.csproj", "{1527472C-9D63-429C-9CAB-6CF572EFA877}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.extension.methods", "01-konstrukcije-jezika\01-functions\06-extensions\06.extension.methods.csproj", "{879D9B12-2F17-44ED-A9D7-3E9C0F71E171}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.modifiers.public", "01-konstrukcije-jezika\02-classes\01-modifiers-public\01.modifiers.public.csproj", "{324A15D8-B0CB-4142-9A62-C7CAA3F9BE07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.modifiers.protected", "01-konstrukcije-jezika\02-classes\02-modifiers-protected\02.modifiers.protected.csproj", "{5BBFDA24-17EB-4778-8369-35D461F894D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +83,22 @@ Global
 		{3749779F-4050-4847-AF34-DA6698209347}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3749779F-4050-4847-AF34-DA6698209347}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3749779F-4050-4847-AF34-DA6698209347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1527472C-9D63-429C-9CAB-6CF572EFA877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1527472C-9D63-429C-9CAB-6CF572EFA877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1527472C-9D63-429C-9CAB-6CF572EFA877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1527472C-9D63-429C-9CAB-6CF572EFA877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879D9B12-2F17-44ED-A9D7-3E9C0F71E171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879D9B12-2F17-44ED-A9D7-3E9C0F71E171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879D9B12-2F17-44ED-A9D7-3E9C0F71E171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879D9B12-2F17-44ED-A9D7-3E9C0F71E171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324A15D8-B0CB-4142-9A62-C7CAA3F9BE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324A15D8-B0CB-4142-9A62-C7CAA3F9BE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324A15D8-B0CB-4142-9A62-C7CAA3F9BE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324A15D8-B0CB-4142-9A62-C7CAA3F9BE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBFDA24-17EB-4778-8369-35D461F894D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBFDA24-17EB-4778-8369-35D461F894D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBFDA24-17EB-4778-8369-35D461F894D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBFDA24-17EB-4778-8369-35D461F894D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +126,10 @@ Global
 		{13371851-D5AD-4C44-934A-D6E9ECEF2D74} = {F286B384-5CB5-437F-8637-CF492457CFEC}
 		{D97993EB-8357-4CE2-8B81-47387A3DCF1E} = {F286B384-5CB5-437F-8637-CF492457CFEC}
 		{3749779F-4050-4847-AF34-DA6698209347} = {F286B384-5CB5-437F-8637-CF492457CFEC}
+		{1527472C-9D63-429C-9CAB-6CF572EFA877} = {F286B384-5CB5-437F-8637-CF492457CFEC}
+		{879D9B12-2F17-44ED-A9D7-3E9C0F71E171} = {F286B384-5CB5-437F-8637-CF492457CFEC}
+		{324A15D8-B0CB-4142-9A62-C7CAA3F9BE07} = {BE20BD4C-018E-42D9-AFB6-C645D98E2F58}
+		{5BBFDA24-17EB-4778-8369-35D461F894D1} = {BE20BD4C-018E-42D9-AFB6-C645D98E2F58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A88110C-6C4D-4227-A047-05BE7B639B9F}

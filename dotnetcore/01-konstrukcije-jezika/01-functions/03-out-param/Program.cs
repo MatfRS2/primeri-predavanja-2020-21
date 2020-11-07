@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace N03OutParams
+namespace OutParams
 {
     class Program
     {

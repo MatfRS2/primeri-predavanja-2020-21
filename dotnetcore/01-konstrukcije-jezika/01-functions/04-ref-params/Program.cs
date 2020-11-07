@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace N04RefParams
+namespace RefParams
 {
     class Program
     {

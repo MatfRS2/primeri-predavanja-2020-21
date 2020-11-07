@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace HelloConsole
+namespace ExtensionMethods
 {
     partial class Program
     {

@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 
-namespace N01SimpleCase
+namespace SimpleCase
 {
     class Program
     {
@@ -61,7 +61,7 @@ namespace N01SimpleCase
             z = BrojSlova("123 Miki Maus 123");
             Console.WriteLine(z);
             Console.WriteLine(Nalepi("Miki Maus ", 2));
-            Console.WriteLine(Nalepi("Miki Maus ", 4));
+            Console.WriteLine(Nalepi(brojPonavljanja:4, s:"Miki Maus "));
             Console.WriteLine();
         }
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace HelloConsole
+namespace ExtensionMethods
 {
     public static class Prosirenje
     {

@@ -9,7 +9,7 @@ program can access the protected members.
 */
 using System; 
 
-namespace ProtectedAccessModifier { 
+namespace ModifiersProtected { 
 
 class X { 
 

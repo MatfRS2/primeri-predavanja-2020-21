@@ -1,6 +1,6 @@
 using System;
 
-namespace PublicAccessModifier
+namespace ModifiersPublic
 {
 
 class Student { 
