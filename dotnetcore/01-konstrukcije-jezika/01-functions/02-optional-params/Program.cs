@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 
-namespace HelloConsole
+namespace N02OptionalParams
 {
     class Program
     {
