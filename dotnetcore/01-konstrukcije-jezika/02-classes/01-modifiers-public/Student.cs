@@ -1,9 +1,7 @@
-using System;
-
 namespace RS2.ModifiersPublic
 {
 
-class Student { 
+    class Student { 
     // Declaring members rollNo 
     // and name as public 
     public int rollNo; 

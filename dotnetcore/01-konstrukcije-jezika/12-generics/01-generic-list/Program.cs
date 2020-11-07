@@ -1,7 +1,4 @@
-﻿
-using System;
-
-namespace RS2.GenericList
+﻿namespace RS2.GenericList
 {
     public class Program
     {

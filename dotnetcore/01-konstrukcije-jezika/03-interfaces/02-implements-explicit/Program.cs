@@ -1,7 +1,4 @@
-﻿
-using System;
-
-namespace RS2.ImplementsExplicit
+﻿namespace RS2.ImplementsExplicit
 {
     public interface IControl
     {

@@ -1,10 +1,7 @@
-﻿
-using System;
-
-namespace RS2.PropertyHiding
+﻿namespace RS2.PropertyHiding
 {
 
-public class Zaposleni
+    public class Zaposleni
 {
     private string _name;
     

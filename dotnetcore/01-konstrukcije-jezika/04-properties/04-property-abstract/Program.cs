@@ -1,10 +1,7 @@
-﻿
-using System;
-
-namespace RS2.PropertyAbstract
+﻿namespace RS2.PropertyAbstract
 {
 
-abstract class Oblik
+    abstract class Oblik
 {
     public abstract double Povrsina
     {

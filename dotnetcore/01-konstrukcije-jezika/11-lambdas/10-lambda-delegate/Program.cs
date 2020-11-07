@@ -15,6 +15,7 @@ namespace RS2.LambdaDelegate
 
         static void Main(string[] args)
         {
+            // lambdas as delegates
             MyDelegate del1 = (string msg) => Console.WriteLine("Called lambda expression: " + msg);
             del1("Hello World");
             del1("Miki Maus");
@@ -35,9 +36,19 @@ namespace RS2.LambdaDelegate
             del2("Miki Maus");
             Console.WriteLine();
 
+            // delgates as parameters
             InvokeDelegate(del1, "Paja Patak");
             InvokeDelegate(del2, "Paja Patak");
             Console.WriteLine();
+
+            // multicast delegates
+            MyDelegate del = del1 + del2; // combines del1 + del2
+            del("Miki Maus");
+            del -= del1;
+            del("Dusko Dugousko");
+            del -= del2;
+            del += del1;
+            del("Patak Daca");
         }
     }
 }

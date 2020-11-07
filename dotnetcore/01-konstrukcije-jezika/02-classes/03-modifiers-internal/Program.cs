@@ -6,13 +6,13 @@ declared as internal is accessible anywhere inside the same namespace.
 
 It is the default access modifier in C#.
 */
-using System; 
 
 //namespace RS2.DiffernetFromModifiersInternal { 
-namespace RS2.ModifiersInternal { 
+namespace RS2.ModifiersInternal
+{
 
 
-class Program { 
+    class Program { 
 
     // Main Method 
     static void Main(string[] args) 
