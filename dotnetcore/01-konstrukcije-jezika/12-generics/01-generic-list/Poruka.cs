@@ -1,6 +1,6 @@
 using System;
 
-namespace HelloConsoleGenerics
+namespace RS2.GenericList
 {
     internal class Poruka
     {

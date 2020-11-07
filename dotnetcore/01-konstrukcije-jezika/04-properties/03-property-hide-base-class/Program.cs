@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace HelloConsoleProperties
+namespace RS2.PropertyHiding
 {
 
 public class Zaposleni

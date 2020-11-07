@@ -1,4 +1,4 @@
-namespace HelloConsoleProperties
+namespace RS2.LambdaExpressionInInterface
 {
     public class Osoba
     {

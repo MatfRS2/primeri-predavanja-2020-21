@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace HelloConsoleProperties
+namespace RS2.LambdaExpressionInInterface
 {
 
 public class Program

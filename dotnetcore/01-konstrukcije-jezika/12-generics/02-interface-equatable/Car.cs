@@ -1,4 +1,4 @@
-namespace HelloWorld
+namespace RS2.InterfaceEquitable
 {
     public class Car : IEquatable<Car>
     {

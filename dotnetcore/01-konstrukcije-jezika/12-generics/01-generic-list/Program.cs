@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace HelloConsoleGenerics
+namespace RS2.GenericList
 {
     public class Program
     {

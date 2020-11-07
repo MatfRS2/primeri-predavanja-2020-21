@@ -1,6 +1,6 @@
 using System;
 
-namespace HelloConsoleProperties
+namespace RS2.InitializationExpression
 {
     internal class Poruka
     {

@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace HelloConsoleProperties
+namespace RS2.PropertyAbstract
 {
 
 abstract class Oblik
@@ -45,7 +45,7 @@ class Kocka : Oblik
     }
 }
 
-class TestShapes
+class Program
 {
     static void Main()
     {

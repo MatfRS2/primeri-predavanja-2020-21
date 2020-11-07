@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace HelloConsoleGenerics
+namespace RS2.GenericList
 {
  // type parameter T in angle brackets
 public class OneWayList<T>
