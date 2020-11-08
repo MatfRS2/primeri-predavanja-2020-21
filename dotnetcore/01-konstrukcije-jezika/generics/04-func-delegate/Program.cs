@@ -39,11 +39,6 @@ namespace RS2.FuncDelegate
             Console.WriteLine(result);
             Console.WriteLine();
 
-            Func<decimal, decimal, decimal, decimal> add3d = (x,y,z) => (x+y+z);
-            decimal res = add3d(10.5M, 10M, 10.48M);
-            Console.WriteLine(res);
-            Console.WriteLine();
-
         }
     }
 

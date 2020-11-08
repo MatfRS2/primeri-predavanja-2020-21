@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-konstrukcije-jezika", "01-konstrukcije-jezika", "{C581030E-4957-438C-A2A9-0E98A3AE86A8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-generics", "11-generics", "{696373B6-197F-4E5D-AC49-649E46D4C20E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-generics", "10-generics", "{696373B6-197F-4E5D-AC49-649E46D4C20E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14-async-prog", "14-async-prog", "{D627C438-F80E-44DF-993A-27D374380887}"
 EndProject
@@ -32,7 +32,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-delegates", "07-delegate
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-events", "08-events", "{9D8298D5-E08F-4A28-B17E-3CE78BEEAACE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-lambdas", "10-lambdas", "{3593D11D-02D2-41E4-AA2E-93995A6942C3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-lambdas", "11-lambdas", "{3593D11D-02D2-41E4-AA2E-93995A6942C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13-collections", "13-collections", "{E3EBF351-D33E-43E6-ADF8-A8688C6C0609}"
 EndProject
@@ -155,6 +155,16 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.structures.methods.properties", "01-konstrukcije-jezika\structures\02-structures-methods-properties\02.structures.methods.properties.csproj", "{691ADCCF-9468-470A-817D-68A8B2BF98CE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.structures.events", "01-konstrukcije-jezika\generics\09-structures-events\09.structures.events.csproj", "{3B4521CD-0F6A-4766-80AC-B92419947D83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.anonimous.method", "01-konstrukcije-jezika\delegates\04-anonimous-method\04.anonimous.method.csproj", "{11DFDF45-861E-4EBF-AD50-17459496048A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.lambda", "01-konstrukcije-jezika\lambdas\01-simple-lambda\01.simple.lambda.csproj", "{024DF860-7C4D-4E19-9679-5B9217F9C670}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.lambda.event", "01-konstrukcije-jezika\lambdas\02-lambda-event\02.lambda.event.csproj", "{572FB8B9-F47D-4351-9F53-EDA796754857}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.simple.generic", "01-konstrukcije-jezika\generics\00-simple-generics\00.simple.generic.csproj", "{7A541409-1BC9-4475-895B-2C4E3B79350C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.generic.constraint", "01-konstrukcije-jezika\generics\10-generic-constraints\10.generic.constraint.csproj", "{E3EFC9BF-2673-4730-8A7D-63699C963567}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -382,6 +392,26 @@ Global
 		{3B4521CD-0F6A-4766-80AC-B92419947D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B4521CD-0F6A-4766-80AC-B92419947D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B4521CD-0F6A-4766-80AC-B92419947D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DFDF45-861E-4EBF-AD50-17459496048A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DFDF45-861E-4EBF-AD50-17459496048A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DFDF45-861E-4EBF-AD50-17459496048A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DFDF45-861E-4EBF-AD50-17459496048A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024DF860-7C4D-4E19-9679-5B9217F9C670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024DF860-7C4D-4E19-9679-5B9217F9C670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024DF860-7C4D-4E19-9679-5B9217F9C670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024DF860-7C4D-4E19-9679-5B9217F9C670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572FB8B9-F47D-4351-9F53-EDA796754857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572FB8B9-F47D-4351-9F53-EDA796754857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572FB8B9-F47D-4351-9F53-EDA796754857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572FB8B9-F47D-4351-9F53-EDA796754857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A541409-1BC9-4475-895B-2C4E3B79350C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A541409-1BC9-4475-895B-2C4E3B79350C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A541409-1BC9-4475-895B-2C4E3B79350C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A541409-1BC9-4475-895B-2C4E3B79350C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EFC9BF-2673-4730-8A7D-63699C963567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EFC9BF-2673-4730-8A7D-63699C963567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EFC9BF-2673-4730-8A7D-63699C963567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EFC9BF-2673-4730-8A7D-63699C963567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -461,6 +491,11 @@ Global
 		{46C90C19-123D-4D29-93F8-B295C31D01CB} = {696373B6-197F-4E5D-AC49-649E46D4C20E}
 		{691ADCCF-9468-470A-817D-68A8B2BF98CE} = {EA9C9B10-2751-4EBC-B50C-4D9B5D36B32D}
 		{3B4521CD-0F6A-4766-80AC-B92419947D83} = {696373B6-197F-4E5D-AC49-649E46D4C20E}
+		{11DFDF45-861E-4EBF-AD50-17459496048A} = {9ED8C355-A386-4068-9C23-38983C0FF885}
+		{024DF860-7C4D-4E19-9679-5B9217F9C670} = {3593D11D-02D2-41E4-AA2E-93995A6942C3}
+		{572FB8B9-F47D-4351-9F53-EDA796754857} = {3593D11D-02D2-41E4-AA2E-93995A6942C3}
+		{7A541409-1BC9-4475-895B-2C4E3B79350C} = {696373B6-197F-4E5D-AC49-649E46D4C20E}
+		{E3EFC9BF-2673-4730-8A7D-63699C963567} = {696373B6-197F-4E5D-AC49-649E46D4C20E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A88110C-6C4D-4227-A047-05BE7B639B9F}

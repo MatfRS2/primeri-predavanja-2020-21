@@ -4,14 +4,28 @@ namespace RS2.GenericList
 {
     internal class Poruka
     {
+        private byte brojPonavljanja;
+        private string sadrzaj;
+
         public byte BrojPonavljanja{
-            get;
-            set;
+            get {
+                return brojPonavljanja;
+            }
+            set
+            {
+                brojPonavljanja = value;
+            }
         }
         
         public string Sadrzaj {
-            get;
-            set;
+            get
+            {
+                return sadrzaj;
+            }
+            set
+            {
+                sadrzaj = value;
+            }
         }
 
         public void PrikazNaKonzolu()
