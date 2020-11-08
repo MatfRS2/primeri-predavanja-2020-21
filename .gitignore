@@ -4389,3 +4389,10 @@
 /dotnetcore/01-konstrukcije-jezika/lambdas/02-lambda-event/obj/02.lambda.event.csproj.nuget.g.targets
 /dotnetcore/01-konstrukcije-jezika/lambdas/02-lambda-event/obj/02.lambda.event.csproj.nuget.g.props
 /dotnetcore/01-konstrukcije-jezika/lambdas/02-lambda-event/obj/02.lambda.event.csproj.nuget.dgspec.json
+/dotnetcore/01-konstrukcije-jezika/delegates/99b-delegates-demo-end/ConsoleUI/ConsoleUI.csproj.user
+/dotnetcore/01-konstrukcije-jezika/delegates/99a-delegates-demo-start/WinFormUI/WinFormUI.csproj.user
+/dotnetcore/01-konstrukcije-jezika/delegates/99a-delegates-demo-start/ConsoleUI/ConsoleUI.csproj.user
+/dotnetcore/01-konstrukcije-jezika/delegates/99b-delegates-demo-end/WinFormUI/WinFormUI.csproj.user
+/dotnetcore/01-konstrukcije-jezika/interfaces/01-implements/obj/Debug/netcoreapp3.1/01.implements.csprojAssemblyReference.cache
+/dotnetcore/01-konstrukcije-jezika/generics/03-generic-delegate/obj/Debug/netcoreapp3.1/03.generic.delegate.csprojAssemblyReference.cache
+/dotnetcore/01-konstrukcije-jezika/events/02-event-handler/obj/Debug/netcoreapp3.1/02.event.handler.csprojAssemblyReference.cache
