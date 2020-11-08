@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-konstrukcije-jezika", "01-konstrukcije-jezika", "{C581030E-4957-438C-A2A9-0E98A3AE86A8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-generics", "12-generics", "{696373B6-197F-4E5D-AC49-649E46D4C20E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-generics", "11-generics", "{696373B6-197F-4E5D-AC49-649E46D4C20E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14-async-prog", "14-async-prog", "{D627C438-F80E-44DF-993A-27D374380887}"
 EndProject
@@ -23,18 +23,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-enums", "05-enums", "{D2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-indexers", "06-indexers", "{F28A7485-FC81-4041-AF38-EB0603908832}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-tuples", "07-tuples", "{41C6B9EA-8D57-4ED8-9EB4-3C76483F38EA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-tuples", "12-tuples", "{41C6B9EA-8D57-4ED8-9EB4-3C76483F38EA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-structures", "08-structures", "{EA9C9B10-2751-4EBC-B50C-4D9B5D36B32D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-structures", "07-structures", "{EA9C9B10-2751-4EBC-B50C-4D9B5D36B32D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-delegates", "09-delegates", "{9ED8C355-A386-4068-9C23-38983C0FF885}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-delegates", "08-delegates", "{9ED8C355-A386-4068-9C23-38983C0FF885}"
 	ProjectSection(SolutionItems) = preProject
 		01-konstrukcije-jezika\09-delegates\99a-delegates-demo-start\DemoLibrary\README.md = 01-konstrukcije-jezika\09-delegates\99a-delegates-demo-start\DemoLibrary\README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-events", "10-events", "{9D8298D5-E08F-4A28-B17E-3CE78BEEAACE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-events", "09-events", "{9D8298D5-E08F-4A28-B17E-3CE78BEEAACE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-lambdas", "11-lambdas", "{3593D11D-02D2-41E4-AA2E-93995A6942C3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-lambdas", "10-lambdas", "{3593D11D-02D2-41E4-AA2E-93995A6942C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13-collections", "13-collections", "{E3EBF351-D33E-43E6-ADF8-A8688C6C0609}"
 EndProject
