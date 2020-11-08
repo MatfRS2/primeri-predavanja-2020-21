@@ -146,6 +146,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.async.simple.wpf", "01-k
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.event", "01-konstrukcije-jezika\events\01-simple-event\01.simple.event.csproj", "{D8938A4C-88E9-474A-A303-45FD5683D837}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.event.handler", "01-konstrukcije-jezika\events\02-event-handler\02.event.handler.csproj", "{FB89916A-1ECB-4AA5-888F-8C11F647374D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.operator.overload", "01-konstrukcije-jezika\classes\10-operator-overload\10.operator.overload.csproj", "{5AD6F1C5-05FB-41B9-A8A4-7AAC2C7C78F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -352,6 +356,14 @@ Global
 		{D8938A4C-88E9-474A-A303-45FD5683D837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8938A4C-88E9-474A-A303-45FD5683D837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8938A4C-88E9-474A-A303-45FD5683D837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB89916A-1ECB-4AA5-888F-8C11F647374D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB89916A-1ECB-4AA5-888F-8C11F647374D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB89916A-1ECB-4AA5-888F-8C11F647374D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB89916A-1ECB-4AA5-888F-8C11F647374D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD6F1C5-05FB-41B9-A8A4-7AAC2C7C78F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD6F1C5-05FB-41B9-A8A4-7AAC2C7C78F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD6F1C5-05FB-41B9-A8A4-7AAC2C7C78F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD6F1C5-05FB-41B9-A8A4-7AAC2C7C78F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -426,6 +438,8 @@ Global
 		{04CFD0D8-39B7-4B8D-A029-1BB2FC454DA2} = {EA9C9B10-2751-4EBC-B50C-4D9B5D36B32D}
 		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0} = {D627C438-F80E-44DF-993A-27D374380887}
 		{D8938A4C-88E9-474A-A303-45FD5683D837} = {9D8298D5-E08F-4A28-B17E-3CE78BEEAACE}
+		{FB89916A-1ECB-4AA5-888F-8C11F647374D} = {9D8298D5-E08F-4A28-B17E-3CE78BEEAACE}
+		{5AD6F1C5-05FB-41B9-A8A4-7AAC2C7C78F4} = {BE20BD4C-018E-42D9-AFB6-C645D98E2F58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A88110C-6C4D-4227-A047-05BE7B639B9F}

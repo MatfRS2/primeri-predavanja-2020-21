@@ -27,7 +27,7 @@ namespace RS2.SimpleEvent
         // deklarisanje dogadjaja
         public event Notify ProcessCompleted;
 
-        // metoda u okviru kog se ispaljuje dogadjaj
+        // metoda u okviru koje se ispaljuje dogadjaj
         public void StartProcess()
         {
             Console.WriteLine("BL: Metod je pokrenut!");
@@ -41,7 +41,6 @@ namespace RS2.SimpleEvent
             Console.WriteLine("BL: Simulacija izvrsvanja prograskog koda!");
             Thread.Sleep(500);
             Console.WriteLine("BL: Gotovo!");
-
         }
 
         // metod koji ispaljuje dogadjaj
