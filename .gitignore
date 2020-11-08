@@ -4105,3 +4105,6 @@
 /dotnetcore/01-konstrukcije-jezika/structures/01-simple-structure/obj/01.simple.structure.csproj.nuget.g.targets
 /dotnetcore/01-konstrukcije-jezika/structures/01-simple-structure/obj/01.simple.structure.csproj.nuget.g.props
 /dotnetcore/01-konstrukcije-jezika/structures/01-simple-structure/obj/01.simple.structure.csproj.nuget.dgspec.json
+/dotnetcore/01-konstrukcije-jezika/classes/06-modifiers-private-protected/obj/Debug/netcoreapp3.1/06.modifiers.private.protected.csprojAssemblyReference.cache
+/dotnetcore/01-konstrukcije-jezika/classes/08-hide/obj/Debug/netcoreapp3.1/08.method.new.hide.csprojAssemblyReference.cache
+/dotnetcore/01-konstrukcije-jezika/classes/09-partial-class/obj/Debug/netcoreapp3.1/10.partial.class.csprojAssemblyReference.cache
