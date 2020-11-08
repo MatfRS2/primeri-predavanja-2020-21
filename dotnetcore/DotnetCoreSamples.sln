@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-generics", "11-generics"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14-async-prog", "14-async-prog", "{D627C438-F80E-44DF-993A-27D374380887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.async.simple.wpf", "01-konstrukcije-jezika\14-async-prog\01-async-await\01.async.simple.wpf.csproj", "{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-functions", "01-functions", "{F286B384-5CB5-437F-8637-CF492457CFEC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-classes", "02-classes", "{BE20BD4C-018E-42D9-AFB6-C645D98E2F58}"
@@ -25,14 +23,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-indexers", "06-indexers"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-tuples", "12-tuples", "{41C6B9EA-8D57-4ED8-9EB4-3C76483F38EA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-structures", "07-structures", "{EA9C9B10-2751-4EBC-B50C-4D9B5D36B32D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-structures", "09-structures", "{EA9C9B10-2751-4EBC-B50C-4D9B5D36B32D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-delegates", "08-delegates", "{9ED8C355-A386-4068-9C23-38983C0FF885}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-delegates", "07-delegates", "{9ED8C355-A386-4068-9C23-38983C0FF885}"
 	ProjectSection(SolutionItems) = preProject
-		01-konstrukcije-jezika\09-delegates\99a-delegates-demo-start\DemoLibrary\README.md = 01-konstrukcije-jezika\09-delegates\99a-delegates-demo-start\DemoLibrary\README.md
+		01-konstrukcije-jezika\delegates\99a-delegates-demo-start\DemoLibrary\README.md = 01-konstrukcije-jezika\delegates\99a-delegates-demo-start\DemoLibrary\README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-events", "09-events", "{9D8298D5-E08F-4A28-B17E-3CE78BEEAACE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-events", "08-events", "{9D8298D5-E08F-4A28-B17E-3CE78BEEAACE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-lambdas", "10-lambdas", "{3593D11D-02D2-41E4-AA2E-93995A6942C3}"
 EndProject
@@ -44,103 +42,109 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-atributes", "16-atribute
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17-documenation", "17-documenation", "{5174DE51-F1D7-4FFB-AAB8-E1BAEDA94B40}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.case", "01-konstrukcije-jezika\01-functions\01-simple-case\01.simple.case.csproj", "{2EE7C9C0-553E-4E87-9996-15F19EDD8CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.case", "01-konstrukcije-jezika\functions\01-simple-case\01.simple.case.csproj", "{2EE7C9C0-553E-4E87-9996-15F19EDD8CB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.optional.params", "01-konstrukcije-jezika\01-functions\02-optional-params\02.optional.params.csproj", "{13371851-D5AD-4C44-934A-D6E9ECEF2D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.optional.params", "01-konstrukcije-jezika\functions\02-optional-params\02.optional.params.csproj", "{13371851-D5AD-4C44-934A-D6E9ECEF2D74}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.out.params", "01-konstrukcije-jezika\01-functions\03-out-param\03.out.params.csproj", "{D97993EB-8357-4CE2-8B81-47387A3DCF1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.out.params", "01-konstrukcije-jezika\functions\03-out-param\03.out.params.csproj", "{D97993EB-8357-4CE2-8B81-47387A3DCF1E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ref.params", "01-konstrukcije-jezika\01-functions\04-ref-params\04.ref.params.csproj", "{3749779F-4050-4847-AF34-DA6698209347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ref.params", "01-konstrukcije-jezika\functions\04-ref-params\04.ref.params.csproj", "{3749779F-4050-4847-AF34-DA6698209347}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ref.params.class", "01-konstrukcije-jezika\01-functions\05-ref-params-class\05.ref.params.class.csproj", "{1527472C-9D63-429C-9CAB-6CF572EFA877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ref.params.class", "01-konstrukcije-jezika\functions\05-ref-params-class\05.ref.params.class.csproj", "{1527472C-9D63-429C-9CAB-6CF572EFA877}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.extension.methods", "01-konstrukcije-jezika\01-functions\06-extensions\06.extension.methods.csproj", "{879D9B12-2F17-44ED-A9D7-3E9C0F71E171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.extension.methods", "01-konstrukcije-jezika\functions\06-extensions\06.extension.methods.csproj", "{879D9B12-2F17-44ED-A9D7-3E9C0F71E171}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.modifiers.public", "01-konstrukcije-jezika\02-classes\01-modifiers-public\01.modifiers.public.csproj", "{324A15D8-B0CB-4142-9A62-C7CAA3F9BE07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.modifiers.public", "01-konstrukcije-jezika\classes\01-modifiers-public\01.modifiers.public.csproj", "{324A15D8-B0CB-4142-9A62-C7CAA3F9BE07}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.modifiers.protected", "01-konstrukcije-jezika\02-classes\02-modifiers-protected\02.modifiers.protected.csproj", "{5BBFDA24-17EB-4778-8369-35D461F894D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.modifiers.protected", "01-konstrukcije-jezika\classes\02-modifiers-protected\02.modifiers.protected.csproj", "{5BBFDA24-17EB-4778-8369-35D461F894D1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.modifiers.internal", "01-konstrukcije-jezika\02-classes\03-modifiers-internal\03.modifiers.internal.csproj", "{9A9662DC-8877-4E7F-B16F-6949A4A53830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.modifiers.internal", "01-konstrukcije-jezika\classes\03-modifiers-internal\03.modifiers.internal.csproj", "{9A9662DC-8877-4E7F-B16F-6949A4A53830}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.modifiers.protected.internal", "01-konstrukcije-jezika\02-classes\04-modifiers-protected-internal\04.modifiers.protected.internal.csproj", "{9BD40D09-7662-4A5C-A052-D36AC733AF52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.modifiers.protected.internal", "01-konstrukcije-jezika\classes\04-modifiers-protected-internal\04.modifiers.protected.internal.csproj", "{9BD40D09-7662-4A5C-A052-D36AC733AF52}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.modifiers.private", "01-konstrukcije-jezika\02-classes\05-modifiers-private\05.modifiers.private.csproj", "{45239668-1655-4613-951D-E091EBC38A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.modifiers.private", "01-konstrukcije-jezika\classes\05-modifiers-private\05.modifiers.private.csproj", "{45239668-1655-4613-951D-E091EBC38A72}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.modifiers.private.protected", "01-konstrukcije-jezika\02-classes\06-modifiers-private-protected\06.modifiers.private.protected.csproj", "{9E7948C1-5BA3-4CEA-BB21-5F8262163C32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.modifiers.private.protected", "01-konstrukcije-jezika\classes\06-modifiers-private-protected\06.modifiers.private.protected.csproj", "{9E7948C1-5BA3-4CEA-BB21-5F8262163C32}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.method.override", "01-konstrukcije-jezika\02-classes\07-override\07.method.override.csproj", "{A61DB97F-8D50-4E17-ABF1-92FC76C038D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.method.override", "01-konstrukcije-jezika\classes\07-override\07.method.override.csproj", "{A61DB97F-8D50-4E17-ABF1-92FC76C038D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.method.new.hide", "01-konstrukcije-jezika\02-classes\08-hide\08.method.new.hide.csproj", "{C9439B37-568D-4024-BD79-3720395019FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.method.new.hide", "01-konstrukcije-jezika\classes\08-hide\08.method.new.hide.csproj", "{C9439B37-568D-4024-BD79-3720395019FB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.partial.class", "01-konstrukcije-jezika\02-classes\09-partial-class\10.partial.class.csproj", "{508A1388-AC28-46ED-9C73-3CA800AFE397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.partial.class", "01-konstrukcije-jezika\classes\09-partial-class\10.partial.class.csproj", "{508A1388-AC28-46ED-9C73-3CA800AFE397}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.implements", "01-konstrukcije-jezika\03-interfaces\01-implements\01.implements.csproj", "{6C0B718D-D05B-4F5D-AA5B-A2AFA9B105BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.implements", "01-konstrukcije-jezika\interfaces\01-implements\01.implements.csproj", "{6C0B718D-D05B-4F5D-AA5B-A2AFA9B105BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.iplements.explicit", "01-konstrukcije-jezika\03-interfaces\02-implements-explicit\02.iplements.explicit.csproj", "{70EE7804-4B77-4B79-8FAB-6B894CE98462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.iplements.explicit", "01-konstrukcije-jezika\interfaces\02-implements-explicit\02.iplements.explicit.csproj", "{70EE7804-4B77-4B79-8FAB-6B894CE98462}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.prpoperty", "01-konstrukcije-jezika\04-properties\01-simple-case\01.simple.prpoperty.csproj", "{6498546D-43F1-4F4A-91F7-8BD09B9E4E06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.prpoperty", "01-konstrukcije-jezika\properties\01-simple-case\01.simple.prpoperty.csproj", "{6498546D-43F1-4F4A-91F7-8BD09B9E4E06}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.property.backing.field", "01-konstrukcije-jezika\04-properties\02-backing-field\02.property.backing.field.csproj", "{183F90B4-2DEE-46FA-B241-6259C93AEFA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.property.backing.field", "01-konstrukcije-jezika\properties\02-backing-field\02.property.backing.field.csproj", "{183F90B4-2DEE-46FA-B241-6259C93AEFA8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.prpoperty.hiding", "01-konstrukcije-jezika\04-properties\03-property-hide-base-class\03.prpoperty.hiding.csproj", "{DF02DA41-E9DB-4BF8-B0ED-FBE6BC7B1ECC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.prpoperty.hiding", "01-konstrukcije-jezika\properties\03-property-hide-base-class\03.prpoperty.hiding.csproj", "{DF02DA41-E9DB-4BF8-B0ED-FBE6BC7B1ECC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.property.abstract", "01-konstrukcije-jezika\04-properties\04-property-abstract\04.property.abstract.csproj", "{66B49A6D-6370-4B21-81B5-98B5F73F5EF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.property.abstract", "01-konstrukcije-jezika\properties\04-property-abstract\04.property.abstract.csproj", "{66B49A6D-6370-4B21-81B5-98B5F73F5EF3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.enum", "01-konstrukcije-jezika\05-enums\01-simple-case\01.simple.enum.csproj", "{1021AD4A-0876-4E08-895B-21F52DAD35E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.enum", "01-konstrukcije-jezika\enums\01-simple-case\01.simple.enum.csproj", "{1021AD4A-0876-4E08-895B-21F52DAD35E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.lambda.expression.in.interface", "01-konstrukcije-jezika\11-lambdas\07-expression-body-in-interface\07.lambda.expression.in.interface.csproj", "{8BED4014-8DFA-48F3-86C5-BA5D7AE99875}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.lambda.expression.in.interface", "01-konstrukcije-jezika\lambdas\07-expression-body-in-interface\07.lambda.expression.in.interface.csproj", "{8BED4014-8DFA-48F3-86C5-BA5D7AE99875}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.auto.implemented.properties", "01-konstrukcije-jezika\11-lambdas\08-auto-implemented-properties\08.auto.implemented.properties.csproj", "{C13E9E7E-3A72-4C7D-9A09-EBBFCCFAEB44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.auto.implemented.properties", "01-konstrukcije-jezika\lambdas\08-auto-implemented-properties\08.auto.implemented.properties.csproj", "{C13E9E7E-3A72-4C7D-9A09-EBBFCCFAEB44}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.initialization.expression", "01-konstrukcije-jezika\11-lambdas\09-initialization-expression\09.initialization.expression.csproj", "{CEB1E188-D919-47A9-A006-8DCDF0FA428C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.initialization.expression", "01-konstrukcije-jezika\lambdas\09-initialization-expression\09.initialization.expression.csproj", "{CEB1E188-D919-47A9-A006-8DCDF0FA428C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.generic.list", "01-konstrukcije-jezika\12-generics\01-generic-list\01.generic.list.csproj", "{88BCE881-29C5-4B85-8A9B-FBEEFFCF26A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.generic.list", "01-konstrukcije-jezika\generics\01-generic-list\01.generic.list.csproj", "{88BCE881-29C5-4B85-8A9B-FBEEFFCF26A6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.interface.equitable", "01-konstrukcije-jezika\12-generics\02-interface-equatable\02.interface.equitable.csproj", "{546D79B0-39A4-4494-BB7B-5FE7442C0C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.interface.equitable", "01-konstrukcije-jezika\generics\02-interface-equatable\02.interface.equitable.csproj", "{546D79B0-39A4-4494-BB7B-5FE7442C0C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-async.advanced.wpf", "01-konstrukcije-jezika\14-async-prog\02-async-await-advanced\02-async.advanced.wpf.csproj", "{A06EE4C4-8869-4805-9FF9-2655E795E6F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-async.advanced.wpf", "01-konstrukcije-jezika\async-prog\02-async-await-advanced\02-async.advanced.wpf.csproj", "{A06EE4C4-8869-4805-9FF9-2655E795E6F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.delegate", "01-konstrukcije-jezika\09-delegates\01-simple-delegate\01.simple.delegate.csproj", "{2B7F75B1-7BE0-4292-A766-0A25E8720602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.delegate", "01-konstrukcije-jezika\delegates\01-simple-delegate\01.simple.delegate.csproj", "{2B7F75B1-7BE0-4292-A766-0A25E8720602}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.lambda.delegate", "01-konstrukcije-jezika\11-lambdas\10-lambda-delegate\10.lambda.delegate.csproj", "{4A290397-C247-467F-BBFC-6BE2654D0CD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.lambda.delegate", "01-konstrukcije-jezika\lambdas\10-lambda-delegate\10.lambda.delegate.csproj", "{4A290397-C247-467F-BBFC-6BE2654D0CD8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.delegates.as.parameters", "01-konstrukcije-jezika\09-delegates\02-delagates-as-parameters\02.delegates.as.parameters.csproj", "{48526468-ECE9-4AB7-BD2A-6964BAE6976C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.delegates.as.parameters", "01-konstrukcije-jezika\delegates\02-delagates-as-parameters\02.delegates.as.parameters.csproj", "{48526468-ECE9-4AB7-BD2A-6964BAE6976C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99a-delegates-demo-start", "99a-delegates-demo-start", "{42F4CD20-E366-489B-9090-8B817F9DFAE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99b-delegates-demo-end", "99b-delegates-demo-end", "{947CE22C-331B-4B9B-AFBD-8A8FE3692C81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "01-konstrukcije-jezika\09-delegates\99a-delegates-demo-start\DemoLibrary\DemoLibrary.csproj", "{F9EDC9C4-32E4-4534-81F9-B183831E13B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "01-konstrukcije-jezika\delegates\99a-delegates-demo-start\DemoLibrary\DemoLibrary.csproj", "{F9EDC9C4-32E4-4534-81F9-B183831E13B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "01-konstrukcije-jezika\09-delegates\99a-delegates-demo-start\ConsoleUI\ConsoleUI.csproj", "{E99F86D7-A6F2-46A4-870C-1DDC12F32864}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "01-konstrukcije-jezika\delegates\99a-delegates-demo-start\ConsoleUI\ConsoleUI.csproj", "{E99F86D7-A6F2-46A4-870C-1DDC12F32864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "01-konstrukcije-jezika\09-delegates\99a-delegates-demo-start\WinFormUI\WinFormUI.csproj", "{4CA4F857-EE02-48B8-B04D-2FEB0E4B93AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "01-konstrukcije-jezika\delegates\99a-delegates-demo-start\WinFormUI\WinFormUI.csproj", "{4CA4F857-EE02-48B8-B04D-2FEB0E4B93AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "01-konstrukcije-jezika\09-delegates\99b-delegates-demo-end\DemoLibrary\DemoLibrary.csproj", "{CFF0DF34-8A91-4132-A5C6-FB7340287AF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "01-konstrukcije-jezika\delegates\99b-delegates-demo-end\DemoLibrary\DemoLibrary.csproj", "{CFF0DF34-8A91-4132-A5C6-FB7340287AF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "01-konstrukcije-jezika\09-delegates\99b-delegates-demo-end\ConsoleUI\ConsoleUI.csproj", "{E5CBDDA2-1F54-44DB-BCFF-3C74C33FA96A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "01-konstrukcije-jezika\delegates\99b-delegates-demo-end\ConsoleUI\ConsoleUI.csproj", "{E5CBDDA2-1F54-44DB-BCFF-3C74C33FA96A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "01-konstrukcije-jezika\09-delegates\99b-delegates-demo-end\WinFormUI\WinFormUI.csproj", "{61EF5826-5B29-4AD1-8780-0C20487681BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "01-konstrukcije-jezika\delegates\99b-delegates-demo-end\WinFormUI\WinFormUI.csproj", "{61EF5826-5B29-4AD1-8780-0C20487681BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.multicast.delegates", "01-konstrukcije-jezika\09-delegates\03-multicast-delgates\03.multicast.delegates.csproj", "{EB471510-2D79-4533-A041-39518457CC28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.multicast.delegates", "01-konstrukcije-jezika\delegates\03-multicast-delgates\03.multicast.delegates.csproj", "{EB471510-2D79-4533-A041-39518457CC28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.generic.delegate", "01-konstrukcije-jezika\12-generics\03-generic-delegate\03.generic.delegate.csproj", "{ABCFE6F2-9F37-41F5-AF59-B3DA5BD752D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.generic.delegate", "01-konstrukcije-jezika\generics\03-generic-delegate\03.generic.delegate.csproj", "{ABCFE6F2-9F37-41F5-AF59-B3DA5BD752D9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.conversion.enum", "01-konstrukcije-jezika\05-enums\02-conversion-enum\02.conversion.enum.csproj", "{42C8802B-7612-4034-B89F-0B8CD1C88ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.conversion.enum", "01-konstrukcije-jezika\enums\02-conversion-enum\02.conversion.enum.csproj", "{42C8802B-7612-4034-B89F-0B8CD1C88ED4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.func.delegate", "01-konstrukcije-jezika\12-generics\04-func-delegate\04.func.delegate.csproj", "{DFEA99CD-1F0C-4FA5-9F60-EFB97267B89B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.func.delegate", "01-konstrukcije-jezika\generics\04-func-delegate\04.func.delegate.csproj", "{DFEA99CD-1F0C-4FA5-9F60-EFB97267B89B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.action.delegate", "01-konstrukcije-jezika\12-generics\05-action-delegate\05.action.delegate.csproj", "{BB719597-06BE-4E2F-9952-7A80351C85FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.action.delegate", "01-konstrukcije-jezika\generics\05-action-delegate\05.action.delegate.csproj", "{BB719597-06BE-4E2F-9952-7A80351C85FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.predicate.delegate", "01-konstrukcije-jezika\12-generics\06-predicate-delegate\06.predicate.delegate.csproj", "{33620776-03A0-4311-BEEC-E69FDE7FAA10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.predicate.delegate", "01-konstrukcije-jezika\generics\06-predicate-delegate\06.predicate.delegate.csproj", "{33620776-03A0-4311-BEEC-E69FDE7FAA10}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.indexer", "01-konstrukcije-jezika\06-indexers\01-simple-inedexer\01.simple.indexer.csproj", "{A1153324-5097-4BDE-B91A-49A204BFAD65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.indexer", "01-konstrukcije-jezika\indexers\01-simple-inedexer\01.simple.indexer.csproj", "{A1153324-5097-4BDE-B91A-49A204BFAD65}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.lambda.indexer", "01-konstrukcije-jezika\11-lambdas\11-lambda-inedexer\11.lambda.indexer.csproj", "{81B345E9-F52B-417A-9893-84F2849C6079}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.lambda.indexer", "01-konstrukcije-jezika\lambdas\11-lambda-inedexer\11.lambda.indexer.csproj", "{81B345E9-F52B-417A-9893-84F2849C6079}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.generic.indexer", "01-konstrukcije-jezika\12-generics\07-generic-inedexer\07.generic.indexer.csproj", "{71BB6E84-C6F1-456E-A974-84687177068F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.generic.indexer", "01-konstrukcije-jezika\generics\07-generic-inedexer\07.generic.indexer.csproj", "{71BB6E84-C6F1-456E-A974-84687177068F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.indexer.overload", "01-konstrukcije-jezika\06-indexers\02-indexer-overload\02.indexer.overload.csproj", "{30211798-4D78-4E8E-B024-D6A7FB7C34DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.indexer.overload", "01-konstrukcije-jezika\indexers\02-indexer-overload\02.indexer.overload.csproj", "{30211798-4D78-4E8E-B024-D6A7FB7C34DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.structure", "01-konstrukcije-jezika\structures\01-simple-structure\01.simple.structure.csproj", "{04CFD0D8-39B7-4B8D-A029-1BB2FC454DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.async.simple.wpf", "01-konstrukcije-jezika\async-prog\01-async-await\01.async.simple.wpf.csproj", "{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.event", "01-konstrukcije-jezika\events\01-simple-event\01.simple.event.csproj", "{D8938A4C-88E9-474A-A303-45FD5683D837}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -148,10 +152,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2EE7C9C0-553E-4E87-9996-15F19EDD8CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2EE7C9C0-553E-4E87-9996-15F19EDD8CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE7C9C0-553E-4E87-9996-15F19EDD8CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -340,6 +340,18 @@ Global
 		{30211798-4D78-4E8E-B024-D6A7FB7C34DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30211798-4D78-4E8E-B024-D6A7FB7C34DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30211798-4D78-4E8E-B024-D6A7FB7C34DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04CFD0D8-39B7-4B8D-A029-1BB2FC454DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CFD0D8-39B7-4B8D-A029-1BB2FC454DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CFD0D8-39B7-4B8D-A029-1BB2FC454DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CFD0D8-39B7-4B8D-A029-1BB2FC454DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8938A4C-88E9-474A-A303-45FD5683D837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8938A4C-88E9-474A-A303-45FD5683D837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8938A4C-88E9-474A-A303-45FD5683D837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8938A4C-88E9-474A-A303-45FD5683D837}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -347,7 +359,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{696373B6-197F-4E5D-AC49-649E46D4C20E} = {C581030E-4957-438C-A2A9-0E98A3AE86A8}
 		{D627C438-F80E-44DF-993A-27D374380887} = {C581030E-4957-438C-A2A9-0E98A3AE86A8}
-		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0} = {D627C438-F80E-44DF-993A-27D374380887}
 		{F286B384-5CB5-437F-8637-CF492457CFEC} = {C581030E-4957-438C-A2A9-0E98A3AE86A8}
 		{BE20BD4C-018E-42D9-AFB6-C645D98E2F58} = {C581030E-4957-438C-A2A9-0E98A3AE86A8}
 		{B398D1DD-4406-4A37-9687-882132A46F3E} = {C581030E-4957-438C-A2A9-0E98A3AE86A8}
@@ -412,6 +423,9 @@ Global
 		{81B345E9-F52B-417A-9893-84F2849C6079} = {3593D11D-02D2-41E4-AA2E-93995A6942C3}
 		{71BB6E84-C6F1-456E-A974-84687177068F} = {696373B6-197F-4E5D-AC49-649E46D4C20E}
 		{30211798-4D78-4E8E-B024-D6A7FB7C34DE} = {F28A7485-FC81-4041-AF38-EB0603908832}
+		{04CFD0D8-39B7-4B8D-A029-1BB2FC454DA2} = {EA9C9B10-2751-4EBC-B50C-4D9B5D36B32D}
+		{14FE9A43-1A16-4CC4-9EF5-8F0E22EBB8C0} = {D627C438-F80E-44DF-993A-27D374380887}
+		{D8938A4C-88E9-474A-A303-45FD5683D837} = {9D8298D5-E08F-4A28-B17E-3CE78BEEAACE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A88110C-6C4D-4227-A047-05BE7B639B9F}
