@@ -40,7 +40,7 @@ namespace RS2.SimpleCase
             if (brojPonavljanja <= 1)
                 return s;
             StringBuilder graditelj = new StringBuilder(s);
-            for(int i = 1; i<=brojPonavljanja; i++)
+            for (int i = 1; i < brojPonavljanja; i++)
             {
                 graditelj.Append(s);
             }
@@ -53,7 +53,7 @@ namespace RS2.SimpleCase
             Console.WriteLine();
 
             int z = 2;
-            StampajViseLinija(z);            
+            StampajViseLinija(z);
             Console.WriteLine("Hello World!");
             StampajViseLinija(z);
             Console.WriteLine();
@@ -61,7 +61,7 @@ namespace RS2.SimpleCase
             z = BrojSlova("123 Miki Maus 123");
             Console.WriteLine(z);
             Console.WriteLine(Nalepi("Miki Maus ", 2));
-            Console.WriteLine(Nalepi(brojPonavljanja:4, s:"Miki Maus "));
+            Console.WriteLine(Nalepi(brojPonavljanja: 4, s:"Paja Patak "));
             Console.WriteLine();
         }
 

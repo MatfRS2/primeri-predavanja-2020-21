@@ -7,7 +7,7 @@ namespace RS2.PropertyBackingField
     {
         static void Main()
         {
-            Karakter lik = new Karakter("Paja", "Patak");
+            Karakter lik = new Karakter(ime:"Paja", "Patak");
             Console.WriteLine("lik - ime: {0}", lik.Ime);
             Console.WriteLine("lik - prezime: {0}", lik.Prezime);
             Console.WriteLine("lik - puno ime: {0}", lik.PunoIme);

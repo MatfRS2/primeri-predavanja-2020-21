@@ -178,6 +178,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "01-konstrukc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "01-konstrukcije-jezika\events\99b-events-demo-end\WinFormUI\WinFormUI.csproj", "{5A5CF527-6EBB-429C-82FC-777BF21D9533}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-database-interaction", "02-database-interaction", "{CEDD449A-9957-431D-9753-6ADA0952C00B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

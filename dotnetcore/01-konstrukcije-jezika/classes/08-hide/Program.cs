@@ -15,7 +15,6 @@ namespace RS2.MethodNewHide
     // izvedena klasa 
     public class Potomak : Roditelj
     {
-        // virtual method 
         public new void PrikaziSe()
         {
             Console.WriteLine("Ja sam primerak klase Potomak.");
@@ -26,16 +25,22 @@ namespace RS2.MethodNewHide
     {
         public static void Main(string[] args)
         {
-            Roditelj obj;
 
-            obj = new Roditelj();
-            obj.PrikaziSe();
+            //obj = new Roditelj();
+            //obj.PrikaziSe();
 
-            obj = new Potomak();
-            obj.PrikaziSe();
+            //obj = new Potomak();
+            //obj.PrikaziSe();
+
+            //Potomak obj2 = new Potomak();
+            //obj2.PrikaziSe();
 
             Potomak obj2 = new Potomak();
             obj2.PrikaziSe();
+
+            Roditelj obj = obj2;
+            obj.PrikaziSe();
+
         }
 
     }

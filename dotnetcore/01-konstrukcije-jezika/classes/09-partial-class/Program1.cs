@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RS2.PartilaClass
+namespace RS2.PartiallClass
 {
     public partial class Program
     {

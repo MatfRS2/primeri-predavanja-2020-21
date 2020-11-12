@@ -24,18 +24,18 @@ namespace RS2.RefParams
             int a = 10, b = 12;
 
             // Display initial values 
-            Console.WriteLine("Vrednost prve promenljive je  {0}", a);
-            Console.WriteLine("Vrednost druge promenljive je {0}", b);
+            Console.WriteLine("Vrednost promenljive {0} je {1}", nameof(a), a);
+            Console.WriteLine("Vrednost promenljive {0} je {1}", nameof(b), b);
             Console.WriteLine();
 
             DodajVrednost(a);
-            Console.WriteLine("Vrednost prve promenljive" +
-                "nakon izvrsenog dodavanja je {0}", a);
+            Console.WriteLine("Vrednost promenljive {0} " +
+                "nakon izvrsenog dodavanja je {1}", nameof(a), a);
             Console.WriteLine();
 
             OduzmiVrednost(ref b);
-            Console.WriteLine("Vrednost druge promenljive " +
-                "nakon izvrsenog oduzimanja je {0}", b);
+            Console.WriteLine("Vrednost promenljive {0} " +
+                "nakon izvrsenog oduzimanja je {1}", nameof(b), b);
             Console.WriteLine();
         }
 

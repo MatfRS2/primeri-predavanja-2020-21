@@ -6,7 +6,7 @@ namespace RS2.OptionalParams
 {
     class Program
     {
-        static void prikazOdDo( int pocev = 40, int zakljucno = 42)
+        static void prikazOdDo(int pocev = 40, int zakljucno = 42)
         {
             int i = pocev;
             while (i <= zakljucno)
@@ -16,9 +16,9 @@ namespace RS2.OptionalParams
             }
         }
 
-        static void StampajViseLinija(int z=2)
+        static void StampajViseLinija(int brojLinija = 2)
         {
-            for (int i = 0; i < z; i++)
+            for (int i = 0; i < brojLinija; i++)
                 Console.WriteLine("-- " + i + " --");
         }
 
@@ -40,20 +40,19 @@ namespace RS2.OptionalParams
             if (brojPonavljanja <= 1)
                 return s;
             StringBuilder graditelj = new StringBuilder(s);
-            for(int i = 1; i<brojPonavljanja; i++)
+            for (int i = 1; i < brojPonavljanja; i++)
             {
                 graditelj.Append(s);
             }
             return graditelj.ToString();
         }
 
-        static public void Prikaz2(string fname = "John", int age = 20, 
-            string lname = "Doe") 
-        { 
-            Console.WriteLine("First name: {0}", fname); 
-            Console.WriteLine("Last name: {0}", lname); 
-            Console.WriteLine("Age: {0}", age); 
-        } 
+        static public void Prikaz2(string fname = "John", int age = 20,
+            string lname = "Doe")
+        {
+            Console.WriteLine("Full name: {0} {1}", fname, lname);
+            Console.WriteLine("Age: {0}", age);
+        }
 
         static void Main(string[] args)
         {
@@ -69,13 +68,14 @@ namespace RS2.OptionalParams
             Console.WriteLine(z);
             Console.WriteLine(Nalepi("Miki Maus ", 4));
             Console.WriteLine(Nalepi("Paja Patak "));
+            Console.WriteLine(Nalepi(brojPonavljanja:3, s: "Raja Patak "));
             Console.WriteLine();
 
             Prikaz2("Baja", 90, "Patak");
             Prikaz2("Miki", 95);
             Prikaz2("Baja");
             Prikaz2();
-            Prikaz2( lname:"Patak", fname:"Paja");
+            Prikaz2(lname: "Patak", fname: "Paja");
             Console.WriteLine();
         }
 

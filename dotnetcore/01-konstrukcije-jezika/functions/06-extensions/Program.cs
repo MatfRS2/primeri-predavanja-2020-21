@@ -25,7 +25,7 @@ namespace RS2.ExtensionMethods
 
             z = "123 Miki Maus 123".BrojSlova();
             Console.WriteLine(z);
-            Console.WriteLine("Miki Maus ".Nalepi(2));
+            Console.WriteLine("Miki Maus  tla la la...".Nalepi(2));
             Console.WriteLine("Miki Maus ".Nalepi(4));
         }
 

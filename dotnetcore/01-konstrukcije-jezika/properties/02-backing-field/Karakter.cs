@@ -4,10 +4,10 @@ namespace RS2.PropertyBackingField
 {
     internal class Karakter
     {
-        private string ime = "XXX";
-        private string prezime = "XXX";
+        private string ime;
+        private string prezime;
 
-        public Karakter(string ime, string prezime)
+        public Karakter(string ime = "XXX", string prezime = "XXX")
         {
             this.ime = ime;
             this.prezime = prezime;

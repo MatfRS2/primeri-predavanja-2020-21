@@ -4,9 +4,7 @@ namespace RS2.OutParams
 {
     class Program
     {
-
-        // Parameters passed by value 
-        static void PostaviDuplirajVrednosti(out int x, out int y)
+         static void PostaviDuplirajVrednosti(out int x, out int y)
         {
             x = 5;
             y = 10;
