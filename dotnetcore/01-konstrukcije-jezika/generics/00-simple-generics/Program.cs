@@ -2,27 +2,27 @@
 
 namespace RS2.SimpleGeneric
 {
-    public class DataStore<T>
+    public class SkladistePodataka<T>
     {
-        private T[] _data = new T[10];
+        private T[] podaci = new T[10];
 
-        public void AddOrUpdate(int index, T item)
+        public void DodajIliAzuriraj(int index, T item)
         {
             if (index >= 0 && index < 10)
-                _data[index] = item;
+                podaci[index] = item;
         }
 
-        public T GetData(int index)
+        public T Podatak(int index)
         {
             if (index >= 0 && index < 10)
-                return _data[index];
+                return podaci[index];
             else
                 return default(T);
         }
 
-        public void WriteOnConsole()
+        public void PrikaziNaKonzoli()
         {
-            foreach (T elem in _data)
+            foreach (T elem in podaci)
                 Console.WriteLine(elem);
         }
     }
@@ -31,20 +31,45 @@ namespace RS2.SimpleGeneric
     {
         static void Main()
         {
-            DataStore<string> cities = new DataStore<string>();
-            cities.AddOrUpdate(0, "Mumbai");
-            cities.AddOrUpdate(1, "Chicago");
-            cities.AddOrUpdate(2, "London");
-            cities.AddOrUpdate(7, "Belgrade");
-            cities.WriteOnConsole();
-            Console.WriteLine();
+            SkladistePodataka<string> cities = new SkladistePodataka<string>();
+            cities.DodajIliAzuriraj(0, "Bombaj");
+            cities.DodajIliAzuriraj(1, "Cikago");
+            cities.DodajIliAzuriraj(2, "London");
+            cities.DodajIliAzuriraj(7, "Beograd");
+            cities.PrikaziNaKonzoli();
+            Console.WriteLine("---");
 
-            DataStore<int> empIds = new DataStore<int>();
-            empIds.AddOrUpdate(0, 50);
-            empIds.AddOrUpdate(1, 65);
-            empIds.AddOrUpdate(2, 89);
-            empIds.WriteOnConsole();
+            SkladistePodataka<int> empIds = new SkladistePodataka<int>();
+            empIds.DodajIliAzuriraj(0, 50);
+            empIds.DodajIliAzuriraj(1, 65);
+            empIds.DodajIliAzuriraj(2, 89);
+            empIds.PrikaziNaKonzoli();
             Console.WriteLine();
         }
     }
 }
+
+/* Izlaz dobijen prilikom izvrsavanja programa:
+Bombaj
+Cikago
+London
+
+
+
+
+Beograd
+
+
+---
+50
+65
+89
+0
+0
+0
+0
+0
+0
+0
+
+ */

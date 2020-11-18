@@ -5,7 +5,6 @@ namespace RS2.GenericList
     internal class Poruka
     {
         private byte brojPonavljanja;
-        private string sadrzaj;
 
         public byte BrojPonavljanja{
             get {
@@ -16,7 +15,9 @@ namespace RS2.GenericList
                 brojPonavljanja = value;
             }
         }
-        
+
+        private string sadrzaj;
+
         public string Sadrzaj {
             get
             {
