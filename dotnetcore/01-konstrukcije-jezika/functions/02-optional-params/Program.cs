@@ -78,6 +78,31 @@ namespace RS2.OptionalParams
             Prikaz2(lname: "Patak", fname: "Paja");
             Console.WriteLine();
         }
-
     }
 }
+
+/* Izlaz dobijen prilikom izvrsavanja programa:
+
+-- 0 --
+-- 1 --
+-- 2 --
+-- 0 --
+-- 1 --
+
+8
+Miki Maus Miki Maus Miki Maus Miki Maus
+Paja Patak Paja Patak
+Raja Patak Raja Patak Raja Patak
+
+Full name: Baja Patak
+Age: 90
+Full name: Miki Doe
+Age: 95
+Full name: Baja Doe
+Age: 20
+Full name: John Doe
+Age: 20
+Full name: Paja Patak
+Age: 20
+
+ */

@@ -30,7 +30,8 @@ namespace WinFormUI
 
         private void makePurchaseButton_Click(object sender, EventArgs e)
         {
-            bool paymentResult = _customer.CheckingAccount.MakePayment("Credit Card Purchase", amountValue.Value, _customer.SavingsAccount);
+            bool paymentResult = _customer.CheckingAccount.MakePayment("Credit Card Purchase", amountValue.Value,
+                _customer.SavingsAccount);
             amountValue.Value = 0;
         }
 

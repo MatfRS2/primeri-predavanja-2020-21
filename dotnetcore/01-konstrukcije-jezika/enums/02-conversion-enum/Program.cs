@@ -3,40 +3,39 @@ using System;
 
 namespace RS2.ConversionEnum
 {
-    enum Color
+    enum Boja
     {
-        Red,
-        Green = 10,
-        Blue,
-        Yellow = 77,
-        Purple,
-        Black
+        Crvena,
+        Zelena = 10,
+        Plava,
+        Zuta = 77,
+        Ljubicasta,
+        Crna
     }
 
     class Program
     {
         static void Main()
         {
-            Console.WriteLine(Color.Purple);
+            Console.WriteLine(Boja.Ljubicasta);
             Console.WriteLine();
 
-            int purple = (int)Color.Purple; // enum to int conversion
+            int purple = (int)Boja.Ljubicasta;
             Console.WriteLine(purple);
             Console.WriteLine();
 
-            var color = (Color)10; // int to enum conversion
+            var color = (Boja)10;
             Console.WriteLine(color);
-
         }
-        /*  Program output:
-            Purple
-            
-            78
-
-            Green
-
-         */
-
     }
 }
+
+/*  Program output:
+Ljubicasta
+
+78
+
+Zelena
+ */
+
 

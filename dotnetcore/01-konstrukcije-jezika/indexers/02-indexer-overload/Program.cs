@@ -16,7 +16,7 @@ namespace RS2.IndexerOverload
             elementi[7] = "Osam";
             for (int i = 0; i < elementi.Dimenzija; i++)
                 Console.WriteLine(elementi[i]);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             Console.WriteLine(elementi["Dva"]);
             Console.WriteLine(elementi["osam"]);
@@ -27,4 +27,24 @@ namespace RS2.IndexerOverload
 
     }
 }
+
+/* Izlaz dobijen prilikom izvrsavanja programa:
+Jedan
+Dva
+
+Cetiri
+
+
+
+Osam
+Devet
+
+---
+Dva
+Osam
+Jedan
+
+Cetiri
+
+ */
 

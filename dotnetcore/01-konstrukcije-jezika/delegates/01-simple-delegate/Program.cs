@@ -3,23 +3,23 @@ using System;
 
 namespace RS2.SimpleDelegate
 {
-    //declaring a delegate
-    public delegate void MyDelegate(string msg); 
+    //deklaracija delegata
+    public delegate void MojDelegat(string tekst); 
 
-    public class ClassA
+    public class KlasaA
     {
-        public static void MethodA(string message)
+        public static void MetodaA(string poruka)
         {
-            Console.WriteLine("Called ClassA.MethodA() with parameter: " + message);
-            Console.WriteLine(message.ToUpper());
+            Console.WriteLine("Pozvan je metod KlasaA.MetodA() sa parametrom: " + poruka);
+            Console.WriteLine(poruka.ToUpper());
         }
     }
 
-    public class ClassB
+    public class KlasaB
     {
-        public static void MethodB(string message)
+        public static void MetodaB(string message)
         {
-            Console.WriteLine("Called ClassB.MethodB() with parameter: " + message);
+            Console.WriteLine("Pozvan je metod KlasaB.MetodB() sa parametrom: " + message);
             var n = message.Length;
             for (var i = 0; i < n; i++)
             {
@@ -34,13 +34,31 @@ namespace RS2.SimpleDelegate
     {
         static void Main(string[] args)
         {
-            MyDelegate del = ClassA.MethodA;
-            del("Hello World");
+            MojDelegat del = KlasaA.MetodaA;
+            del("Zdravo svete");
 
-            del = ClassB.MethodB;
-            del("Hello World");
+            del = KlasaB.MetodaB;
+            del("Zdravo svete");
         }
     }
-
 }
+
+/* Izlaz dobijen prilikom izvrsavanja programa:
+Pozvan je metod KlasaA.MetodA() sa parametrom: Zdravo svete
+ZDRAVO SVETE
+Pozvan je metod KlasaB.MetodB() sa parametrom: Zdravo svete
+Z
+ d
+  r
+   a
+    v
+     o
+
+       s
+        v
+         e
+          t
+           e
+
+ */
 

@@ -3,40 +3,46 @@ using System;
 
 namespace RS2.SimpleEnum
 {
-    enum Color
+    enum Boja
     {
-        Red,
-        Green = 10,
-        Blue
+        Crvena,
+        Zelena = 10,
+        Plava
     }
 
     class Test
     {
-        static string StringFromColor(Color c)
+        static string TekstualniOpis(Boja c)
         {
             switch (c)
             {
-                case Color.Red:
-                    return String.Format("Red = {0}", (int)c);
+                case Boja.Crvena:
+                    return String.Format("Crvena = {0}", (int)c);
 
-                case Color.Green:
-                    return String.Format("Green = {0}", (int)c);
+                case Boja.Zelena:
+                    return String.Format("Zelena = {0}", (int)c);
 
-                case Color.Blue:
-                    return String.Format("Blue = {0}", (int)c);
+                case Boja.Plava:
+                    return String.Format("Plava = {0}", (int)c);
 
                 default:
-                    return "Invalid color";
+                    return "Nepostojeca boja";
             }
         }
 
         static void Main()
         {
-            Console.WriteLine(StringFromColor(Color.Red));
-            Console.WriteLine(StringFromColor(Color.Green));
-            Console.WriteLine(StringFromColor(Color.Blue));
+            Console.WriteLine(TekstualniOpis(Boja.Crvena));
+            Console.WriteLine(TekstualniOpis(Boja.Zelena));
+            Console.WriteLine(TekstualniOpis(Boja.Plava));
         }
 
     }
 }
+
+/* Izlaz dobijen prilikom izvrsavanja programa:
+Crvena = 0
+Zelena = 10
+Plava = 11
+ */
 

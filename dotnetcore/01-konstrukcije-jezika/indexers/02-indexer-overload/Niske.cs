@@ -23,21 +23,19 @@ namespace RS2.IndexerOverload
             get
             {
                 if (index < 0 || index >= skladiste.Length)
-                    throw new IndexOutOfRangeException("Index out of range");
-
+                    throw new IndeksVanOpsegaException(index, skladiste);
                 return skladiste[index];
             }
 
             set
             {
                 if (index < 0 || index >= skladiste.Length)
-                    throw new IndexOutOfRangeException("Index out of range");
-
+                    throw new IndeksVanOpsegaException(index, skladiste);
                 skladiste[index] = value;
             }
         }
 
-        // indeksiranje stringom
+        // indeksiranje niskom - asocijativno case insensitive
         public string this[string name]
         {
             get

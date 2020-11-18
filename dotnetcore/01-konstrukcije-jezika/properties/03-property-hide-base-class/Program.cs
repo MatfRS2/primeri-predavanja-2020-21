@@ -3,46 +3,48 @@
 
     public class Zaposleni
     {
-        private string name;
+        private string imePrezime;
 
-        public string Name
+        public string ImePrezime
         {
-            get { return name; }
-            set { name = value; }
+            get { return imePrezime; }
+            set { imePrezime = value; }
         }
     }
 
-    public class Menadzer : Zaposleni
+    public class Direktor : Zaposleni
     {
-        private string name;
+        private string imePrezime;
 
         // Notice the use of the new modifier:
-        public new string Name
+        public new string ImePrezime
         {
-            get { return name; }
-            set { name = value + ", Manager"; }
+            get { return imePrezime; }
+            set { imePrezime = "direktor " + value; }
         }
     }
 
-    class TestHiding
+    class Program
     {
         static void Main()
         {
-            Menadzer m1 = new Menadzer();
+            Direktor d1 = new Direktor();
 
             // Derived class property.
-            m1.Name = "John";
+            d1.ImePrezime = "Srećko Šojić";
 
             // Base class property.
-            ((Zaposleni)m1).Name = "Mary";
+            ((Zaposleni)d1).ImePrezime = "Dimitrije Pantić";
 
-            System.Console.WriteLine("Ime u izvedenoj klasi: {0}", m1.Name);
-            System.Console.WriteLine("Ime u isnocnoj klasi: {0}",
-                ((Zaposleni)m1).Name);
+            System.Console.WriteLine("Ime u izvedenoj klasi: {0}", d1.ImePrezime);
+            System.Console.WriteLine("Ime u nadklasi: {0}", ((Zaposleni)d1).ImePrezime);
         }
     }
-    /* Output:
-        Name in the derived class is: John, Manager
-        Name in the base class is: Mary
-    */
 }
+
+/* Izlaz dobijen prilikom izvrsavanja programa:
+Ime u izvedenoj klasi: direktor Srecko Sojic
+Ime u nadklasi: Dimitrije Pantic
+
+*/
+

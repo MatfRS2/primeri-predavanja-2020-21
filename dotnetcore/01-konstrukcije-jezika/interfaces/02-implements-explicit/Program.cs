@@ -1,25 +1,25 @@
 ﻿namespace RS2.ImplementsExplicit
 {
-    public interface IControl
+    public interface IKontrola
     {
-        void Paint();
+        void Iscrtaj();
     }
 
-    public interface ISurface
+    public interface IPovrs
     {
-        void Paint();
+        void Iscrtaj();
     }
 
-    public class SampleClass : IControl, ISurface
+    public class NekaKlasa : IKontrola, IPovrs
     {
-        void IControl.Paint()
+        void IKontrola.Iscrtaj()
         {
-            System.Console.WriteLine("IControl.Paint");
+            System.Console.WriteLine("IKontrola.Iscrtaj");
         }
 
-        void ISurface.Paint()
+        void IPovrs.Iscrtaj()
         {
-            System.Console.WriteLine("ISurface.Paint");
+            System.Console.WriteLine("IPovrs.Iscrtaj");
         }
     }
 
@@ -27,15 +27,17 @@
     {
         public static void Main(string[] args)
         {
-            SampleClass sample = new SampleClass();
-            IControl control = sample;
-            ISurface surface = sample;
+            NekaKlasa sample = new NekaKlasa();
+            IKontrola control = sample;
+            IPovrs surface = sample;
 
-            control.Paint();
-            surface.Paint();
+            control.Iscrtaj();
+            surface.Iscrtaj();
         }
-        // Output:
-        // IControl.Paint
-        // ISurface.Paint
     }
 }
+
+/* Izlaz dobijen prilikom izvrsavanja programa:
+IKontrola.Iscrtaj
+IPovrs.Iscrtaj 
+ */

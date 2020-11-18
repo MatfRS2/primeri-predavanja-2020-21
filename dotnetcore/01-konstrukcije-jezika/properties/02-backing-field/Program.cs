@@ -35,3 +35,21 @@ namespace RS2.PropertyBackingField
 
 }
 
+/* Izlaz dobijen prilikom izvrsavanja programa:
+lik - ime: Paja
+lik - prezime: Patak
+lik - puno ime: Paja Patak
+
+lik - ime: Baja
+lik - prezime: Patak
+lik - puno ime: Baja Patak
+
+lik - ime: Felipe Kaetano Lopez Martinez
+lik - prezime: Gonzales
+lik - puno ime: Felipe Kaetano Lopez Martinez Gonzales
+
+lik - ime: XXX
+lik - prezime: Supermen
+lik - puno ime: XXX Supermen
+ */
+

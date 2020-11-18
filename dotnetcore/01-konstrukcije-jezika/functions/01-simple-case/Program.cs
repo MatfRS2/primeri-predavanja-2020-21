@@ -64,7 +64,23 @@ namespace RS2.SimpleCase
             Console.WriteLine(Nalepi(brojPonavljanja: 4, s:"Paja Patak "));
             Console.WriteLine();
         }
-
-
     }
 }
+
+/* Izlaz dobijen prilikom izvrsavanja programa:
+40
+41
+42
+
+-- 0 --
+-- 1 --
+Hello World!
+-- 0 --
+-- 1 --
+
+8
+Miki Maus Miki Maus
+Paja Patak Paja Patak Paja Patak Paja Patak
+
+ */
+

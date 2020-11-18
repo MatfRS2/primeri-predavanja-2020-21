@@ -3,37 +3,45 @@ using System;
 
 namespace RS2.AnonimousMethod
 {
-    public delegate void Print(int value);
+    // deklaracija delegata, koji ocekuje jedan celobrojni argument
+    public delegate void Prikazi(int value);
 
     public class Program
     {
         // ovde je delegat parametar metoda
-        public static void PrintHelperMethod(Print printDel, int val)
+        public static void PrikaziHelper(Prikazi delegatZaPrikaz, int val)
         {
             val += 10;
-            printDel(val);
+            delegatZaPrikaz(val);
         }
 
         static void Main(string[] args)
         {
-            int i = 10;
-            // napravljen je anonimni metod
-            Print prnt = delegate (int val)
-            {
+            int i = 5;
+            // napravljen je anonimni metod i dodeljen delegatu
+            Prikazi prkz = delegate (int val){
                 val += i;
-                Console.WriteLine("Anonymous method: {0}", val);
+                Console.WriteLine("Vrednost promenljive {0} u prvom anonimnom metodu: {1}", nameof(val), val);
             };
-            // poyiva se prethodno napravljeni anonimni metod
-            prnt(100);
+            // poziva se prethodno napravljeni anonimni metod
+            prkz(100);
             Console.WriteLine();
 
-            // prilikom poziva metoda u kom je parametar delegat, argument moze biti anonimni metod
-            PrintHelperMethod(delegate (int val) { 
-                Console.WriteLine("Anonymous method: {0}", val); 
-            }, 100);
+            // prilikom poziva metoda u kom je parametar delegat, odgovarajuci argument moze biti anonimni metod
+            PrikaziHelper( 
+                delegate (int val) { 
+                    Console.WriteLine("Vrednost promenljive {0} u drugom anonimnom metodu: {1}", nameof(val), val); 
+                }, 
+                120);
             Console.WriteLine();
         }
     }
-
 }
+
+/*
+Vrednost promenljive val u prvom anonimnom metodu: 105
+
+Vrednost promenljive val u drugom anonimnom metodu: 130
+
+ */
 

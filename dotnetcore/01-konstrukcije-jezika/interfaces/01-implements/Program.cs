@@ -3,22 +3,22 @@ using System;
 
 namespace RS2.InterfaceImplementation
 {
-    public interface IControl
+    public interface IKontrola
     {
-        void Paint();
+        void Iscrtaj();
     }
 
-    public interface ISurface
+    public interface IPovrs
     {
-        void Paint();
+        void Iscrtaj();
     }
     
-    public class SampleClass : IControl, ISurface
+    public class NekaKlasa : IKontrola, IPovrs
     {
-        // Both ISurface.Paint and IControl.Paint call this method.
-        public void Paint()
+        // oba metoda interfejsa IPovrs.Iscrtaj i IKontrola.Iscrtaj su realizovana pomocu ovog metoda.
+        public void Iscrtaj()
         {
-            Console.WriteLine("Paint method in SampleClass");
+            Console.WriteLine("Iscrtaj method in NekaKlasa");
         }
     }
 
@@ -26,18 +26,21 @@ namespace RS2.InterfaceImplementation
     {
         public static void Main(string[] args)
         {
-            SampleClass sample = new SampleClass();
-            IControl control = sample;
-            ISurface surface = sample;
+            NekaKlasa sample = new NekaKlasa();
+            IKontrola control = sample;
+            IPovrs surface = sample;
 
             // The following lines all call the same method.
-            sample.Paint();
-            control.Paint();
-            surface.Paint();
-            // Output:
-            // Paint method in SampleClass
-            // Paint method in SampleClass
-            // Paint method in SampleClass
+            sample.Iscrtaj();
+            control.Iscrtaj();
+            surface.Iscrtaj();
+
         }
     }
 }
+
+/* Izlaz dobijen prilikom izvrsavanja programa:
+Iscrtaj method in NekaKlasa
+Iscrtaj method in NekaKlasa
+Iscrtaj method in NekaKlasa
+ */
