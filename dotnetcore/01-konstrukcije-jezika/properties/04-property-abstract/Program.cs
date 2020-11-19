@@ -12,7 +12,12 @@
 
     class Kvadrat : Oblik
     {
-        public double ivica;
+        private double ivica;
+
+        public double Ivica
+        {
+            get { return ivica; }
+        }
 
         public Kvadrat(double a)
         {
@@ -28,7 +33,11 @@
 
     class Kocka : Oblik
     {
-        public double ivica;
+        private double ivica;
+        public double Ivica
+        {
+            get { return ivica; }
+        }
 
         public Kocka(double a)
         {
@@ -62,8 +71,8 @@
             kv.Povrsina = povrsina;
             ko.Povrsina = povrsina;
 
-            System.Console.WriteLine("Ivica kvadrata = {0:F2}", kv.ivica);
-            System.Console.WriteLine("Ivica kocke = {0:F2}", ko.ivica);
+            System.Console.WriteLine("Ivica kvadrata = {0:F2}", kv.Ivica);
+            System.Console.WriteLine("Ivica kocke = {0:F2}", ko.Ivica);
         }
     }
 }

@@ -28,13 +28,16 @@ namespace RS2.PredicateDelegate
             Predicate<string> isUpper = IsUpperCase;
             string text = "hello world!!";
             bool result = isUpper(text);
-            if(result)
-                Console.WriteLine( "Text '{0}' is all in upper cases!", text );
+            if (result)
+                Console.WriteLine("Text '{0}' is all in upper cases!", text);
             else
                 Console.WriteLine("Text '{0}' is not all in upper cases!", text);
             Console.WriteLine();
 
-            Predicate<string> isLower = s => s.Equals(s.ToLower());
+            Predicate<string> isLower = delegate (string s)
+            {
+               return s.Equals(s.ToLower());
+            };
             result = isLower(text);
             if (result)
                 Console.WriteLine("Text '{0}' is all in lowercases!", text);

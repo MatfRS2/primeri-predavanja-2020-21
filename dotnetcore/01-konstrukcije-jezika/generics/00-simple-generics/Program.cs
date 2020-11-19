@@ -8,13 +8,13 @@ namespace RS2.SimpleGeneric
 
         public void DodajIliAzuriraj(int index, T item)
         {
-            if (index >= 0 && index < 10)
+            if (index >= 0 && index < podaci.Length)
                 podaci[index] = item;
         }
 
         public T Podatak(int index)
         {
-            if (index >= 0 && index < 10)
+            if (index >= 0 && index < podaci.Length)
                 return podaci[index];
             else
                 return default(T);
@@ -31,19 +31,19 @@ namespace RS2.SimpleGeneric
     {
         static void Main()
         {
-            SkladistePodataka<string> cities = new SkladistePodataka<string>();
-            cities.DodajIliAzuriraj(0, "Bombaj");
-            cities.DodajIliAzuriraj(1, "Cikago");
-            cities.DodajIliAzuriraj(2, "London");
-            cities.DodajIliAzuriraj(7, "Beograd");
-            cities.PrikaziNaKonzoli();
+            SkladistePodataka<string> gradovi = new SkladistePodataka<string>();
+            gradovi.DodajIliAzuriraj(0, "Bombaj");
+            gradovi.DodajIliAzuriraj(1, "Cikago");
+            gradovi.DodajIliAzuriraj(2, "London");
+            gradovi.DodajIliAzuriraj(7, "Beograd");
+            gradovi.PrikaziNaKonzoli();
             Console.WriteLine("---");
 
-            SkladistePodataka<int> empIds = new SkladistePodataka<int>();
-            empIds.DodajIliAzuriraj(0, 50);
-            empIds.DodajIliAzuriraj(1, 65);
-            empIds.DodajIliAzuriraj(2, 89);
-            empIds.PrikaziNaKonzoli();
+            SkladistePodataka<int> identifikatori = new SkladistePodataka<int>();
+            identifikatori.DodajIliAzuriraj(0, 50);
+            identifikatori.DodajIliAzuriraj(1, 65);
+            identifikatori.DodajIliAzuriraj(2, 89);
+            identifikatori.PrikaziNaKonzoli();
             Console.WriteLine();
         }
     }

@@ -24,10 +24,11 @@ namespace RS2.ActionDelegate
         {
             Action<int> printActionDel = ConsolePrint;
             printActionDel(10);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
-            printActionDel = i => Console.WriteLine(i);
+            printActionDel = delegate (int i) { Console.WriteLine(i); };
             printActionDel(10);
+            Console.WriteLine("---");
         }
     }
 }

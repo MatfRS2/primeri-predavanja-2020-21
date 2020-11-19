@@ -44,16 +44,16 @@ namespace RS2.MulticastDelegates
             MojDelegat del = del1;
             del += del2;
             del("Miki Maus");
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             del -= del1;
             del("Dusko Dugousko");
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             del -= del2;
             del += del1;
             del("Patak Daca");
-            Console.WriteLine();
+            Console.WriteLine("---");
         }
     }
 }

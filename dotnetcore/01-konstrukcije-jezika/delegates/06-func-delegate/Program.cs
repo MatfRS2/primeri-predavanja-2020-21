@@ -32,12 +32,12 @@ namespace RS2.FuncDelegate
             Func<int, int, int> add2 = Sum2;
             int result = add2(10, 10);
             Console.WriteLine(result);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             Func<double, double, double, int> add3 = Sum3;
             result = add3(10.5, 10, 10.48);
             Console.WriteLine(result);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
         }
     }

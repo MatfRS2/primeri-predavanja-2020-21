@@ -8,6 +8,10 @@ namespace RS2.GenericList
         // ugnezdena klasa je takodje genericka, sa parametrom tipa T.
         private class CvorListe
         {
+            // ovde je privatno polje tipa T 
+            private T podatak;
+            private CvorListe sledeci;
+
             // ovde se parametar tipa T koristi u negenerickom konstruktoru
             public CvorListe(T t)
             {
@@ -15,16 +19,13 @@ namespace RS2.GenericList
                 podatak = t;
             }
 
-            private CvorListe sledeci;
             public CvorListe Sledeci
             {
                 get { return sledeci; }
                 set { sledeci = value; }
             }
 
-            // ovde je privatno polje tipa T 
-            private T podatak;
-
+ 
             // ovde metod kao rezultat vrace tip T
             public T Podatak
             {

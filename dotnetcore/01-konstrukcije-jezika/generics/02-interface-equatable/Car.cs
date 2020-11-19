@@ -9,8 +9,7 @@ namespace RS2.InterfaceEquitable
         // Implementation of IEquatable<T> interface
         public bool Equals(Car car)
         {
-            return (this.Make, this.Model, this.Year) == (car.Make, car.Model, 
-            car.Year);
+            return (this.Make == car.Make && this.Model == car.Model && this.Year == car.Year);
         }
     }
 }

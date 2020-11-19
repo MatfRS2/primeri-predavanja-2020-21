@@ -16,12 +16,13 @@ namespace RS2.SimpleIndexer
             for (int i = 0; i < elementi.Dimenzija; i++)
                 Console.WriteLine(elementi[i]);
             Console.WriteLine("---");
-
-            elementi[7] = "Osam";
+            
+            elementi.Dimenzija = 15;
+            elementi[-17] = "Osam";
             for (int i = 0; i < elementi.Dimenzija; i++)
                 Console.WriteLine(elementi[i]);
             Console.WriteLine();
-
+            Console.WriteLine("---");
         }
     }
 }

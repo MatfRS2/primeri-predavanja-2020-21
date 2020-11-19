@@ -20,7 +20,7 @@ namespace RS2.GenericIndexer
             procenti[9] = 53;
             for (int i = 0; i < procenti.Dimenzija; i++)
                 Console.WriteLine(procenti[i]);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             Elementi<string> imena = new Elementi<string>(5);
             imena[0] = "Zagor";
@@ -31,6 +31,7 @@ namespace RS2.GenericIndexer
 
             for (int i = 0; i < imena.Dimenzija; i++)
                 Console.WriteLine(imena[i]);
+            Console.WriteLine("---");
         }
 
     }

@@ -34,7 +34,8 @@ namespace RS2.SimpleDelegate
     {
         static void Main(string[] args)
         {
-            MojDelegat del = KlasaA.MetodaA;
+            MojDelegat del;
+            del = KlasaA.MetodaA;
             del("Zdravo svete");
 
             del = KlasaB.MetodaB;

@@ -24,8 +24,11 @@ namespace RS2.ConversionEnum
             Console.WriteLine(purple);
             Console.WriteLine();
 
-            var color = (Boja)10;
+            var color = (Boja)11;
             Console.WriteLine(color);
+
+            var color2 = (Boja)42;
+            Console.WriteLine(color2);
         }
     }
 }
@@ -35,7 +38,7 @@ Ljubicasta
 
 78
 
-Zelena
+Plava
  */
 
 

@@ -19,13 +19,13 @@ namespace RS2.AnonimousMethod
         {
             int i = 5;
             // napravljen je anonimni metod i dodeljen delegatu
-            Prikazi prkz = delegate (int val){
-                val += i;
-                Console.WriteLine("Vrednost promenljive {0} u prvom anonimnom metodu: {1}", nameof(val), val);
+            Prikazi prkz = delegate (int x){
+                x += i;
+                Console.WriteLine("Vrednost promenljive {0} u prvom anonimnom metodu: {1}", nameof(x), x);
             };
             // poziva se prethodno napravljeni anonimni metod
             prkz(100);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             // prilikom poziva metoda u kom je parametar delegat, odgovarajuci argument moze biti anonimni metod
             PrikaziHelper( 
@@ -33,7 +33,7 @@ namespace RS2.AnonimousMethod
                     Console.WriteLine("Vrednost promenljive {0} u drugom anonimnom metodu: {1}", nameof(val), val); 
                 }, 
                 120);
-            Console.WriteLine();
+            Console.WriteLine("---");
         }
     }
 }

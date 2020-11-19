@@ -1,4 +1,6 @@
-﻿namespace RS2.GenericList
+﻿using System;
+
+namespace RS2.GenericList
 {
     public class Program
     {
@@ -12,8 +14,10 @@
             }
             foreach (int i in list)
             {
-                System.Console.Write(i + " ");
+                Console.Write(i + " ");
             }
+            Console.WriteLine("---");
+            
 
             // ovde je Poruka argument tipa
             JednostrukoPovezanaLista<Poruka> list2 = new JednostrukoPovezanaLista<Poruka>();

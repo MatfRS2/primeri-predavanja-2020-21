@@ -3,7 +3,7 @@ using System;
 
 namespace RS2.GenericDelegate
 {
-    public delegate T Add<T>(T param1, T param2); // generic delegate
+    public delegate T Dodaj<T>(T param1, T param2); // generic delegate
 
     class Program
     {
@@ -19,11 +19,11 @@ namespace RS2.GenericDelegate
 
         static void Main(string[] args)
         {
-            Add<int> sum = Sum;
+            Dodaj<int> sum = Sum;
             Console.WriteLine(sum(10, 20));
 
-            Add<string> con = Concat;
-            Console.WriteLine(con("Miki ", "Maus"));
+            Dodaj<string> con = Concat;
+            Console.WriteLine(con(con("Miki", " "), "Maus"));
         }
 
      }

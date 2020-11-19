@@ -7,7 +7,7 @@ Kod .NET, dogadjaji su realizovani preko obrasaca dizajna "posmatrac" (observer)
 
 Moguce je da se vise razlicitih pretplatnika preplacuje na jedan dogadjaj. 
 
-Uobicajeni scenario je da izdavac isplai dogadjaj kada se dogodi neka akcija. Pretplatnici koji su zainteresovani za dobijanje
+Uobicajeni scenario je da izdavac ispali dogadjaj kada se dogodi neka akcija. Pretplatnici koji su zainteresovani za dobijanje
 notifikacije kada se dogodi ta akcija treba da se registuju tj. pretplate na taj dogadjaj. Prilikom registracije, pretplatnik 
 specificira kako ce odgovoriti u slucaju nastupanja dogadjaja tj. specificira "rukovaoca" (handler) ya dati dogadjaj. 
 
