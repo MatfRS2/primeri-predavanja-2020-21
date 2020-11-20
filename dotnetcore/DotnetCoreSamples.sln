@@ -218,6 +218,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.linq", "01-konstr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.linq.samples", "01-konstrukcije-jezika\linq\02-linq-samples\02.linq.samples.csproj", "{C393771D-8030-4BC3-BC27-4D108EFC1675}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.nullable.simples", "01-konstrukcije-jezika\nullable\01-simple-nullable\01.nullable.simples.csproj", "{ABC854AF-DBCC-4042-8D32-2C733AF28598}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -548,6 +550,10 @@ Global
 		{C393771D-8030-4BC3-BC27-4D108EFC1675}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C393771D-8030-4BC3-BC27-4D108EFC1675}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C393771D-8030-4BC3-BC27-4D108EFC1675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC854AF-DBCC-4042-8D32-2C733AF28598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC854AF-DBCC-4042-8D32-2C733AF28598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC854AF-DBCC-4042-8D32-2C733AF28598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC854AF-DBCC-4042-8D32-2C733AF28598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -657,6 +663,7 @@ Global
 		{D0495955-DD1F-42AA-A792-4175578074AE} = {D627C438-F80E-44DF-993A-27D374380887}
 		{040474B9-C165-4664-ACAD-A1C1F331F093} = {7BF15686-D9C3-4F6B-B696-E79CACF47E69}
 		{C393771D-8030-4BC3-BC27-4D108EFC1675} = {7BF15686-D9C3-4F6B-B696-E79CACF47E69}
+		{ABC854AF-DBCC-4042-8D32-2C733AF28598} = {A102DBA1-F311-48FF-AAFE-10A5A67D20A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A88110C-6C4D-4227-A047-05BE7B639B9F}
