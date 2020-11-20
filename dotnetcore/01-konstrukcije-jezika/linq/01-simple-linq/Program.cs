@@ -138,10 +138,28 @@ namespace RS2.SimpleLinq
             Console.WriteLine("{0} - {1}, {2}", bill.StudentId, bill.StudentName, bill.Age);
             Console.WriteLine("---");
 
+            // Use LINQ (query syntax) to find first student whose name is Bill 
+            studentiEnum = from s in sviStudenti
+                           where s.StudentName == "Bill"
+                           select s;
+            bill = studentiEnum.FirstOrDefault();
+            Console.WriteLine("{0} - {1}, {2}", bill.StudentId, bill.StudentName, bill.Age);
+            Console.WriteLine("---");
+
+
             // Use LINQ (method syntax) to find student whose StudentId is 5
             Student student5 = sviStudenti.FirstOrDefault(s => s.StudentId == 5);
             Console.WriteLine("{0} - {1}, {2}", student5.StudentId, student5.StudentName, student5.Age);
             Console.WriteLine("---");
+
+            // Use LINQ (query syntax) to find student whose StudentId is 5
+            studentiEnum = from s in sviStudenti
+                           where s.StudentId == 5
+                           select s; 
+            student5 = studentiEnum.FirstOrDefault();
+            Console.WriteLine("{0} - {1}, {2}", student5.StudentId, student5.StudentName, student5.Age);
+            Console.WriteLine("---");
+
         }
 
     }
