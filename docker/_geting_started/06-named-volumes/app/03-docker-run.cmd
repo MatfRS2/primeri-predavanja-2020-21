@@ -1,0 +1,1 @@
+docker run -dp 7082:3000 -v todo-db:/etc/todos getting-started
