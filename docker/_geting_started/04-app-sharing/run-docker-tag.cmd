@@ -1,0 +1,1 @@
+docker tag getting-started vladofilipovic/getting-started

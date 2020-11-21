@@ -1,0 +1,1 @@
+docker run -dp 7081:3000 getting-started
