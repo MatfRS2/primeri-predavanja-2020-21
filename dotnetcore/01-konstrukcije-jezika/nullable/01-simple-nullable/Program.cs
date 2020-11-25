@@ -23,7 +23,6 @@ public struct Nullable<T> where T : struct
  */
 
 using System;
-using System.Collections.Generic;
 
 Nullable<int> i = null;
 
