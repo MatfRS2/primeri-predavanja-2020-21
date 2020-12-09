@@ -12,7 +12,7 @@ public class Program
         Console.WriteLine(person.Name);
 
         var item = new Artikal("Cipele", 19.95m);
-        Console.WriteLine($"{item.Name} se pordaju po ceni: {item.Price}");
+        Console.WriteLine($"{item.Name} se prodaju po ceni: {item.Price}");
     }
 }
 

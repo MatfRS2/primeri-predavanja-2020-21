@@ -17,7 +17,7 @@ namespace RS2.FuncDelegate
 {
     class Program
     {
-        static int Sum2(int x, int y)
+        static long Sum2(int x, int y)
         {
             return x + y;
         }
@@ -29,8 +29,8 @@ namespace RS2.FuncDelegate
 
         static void Main(string[] args)
         {
-            Func<int, int, int> add2 = Sum2;
-            int result = add2(10, 10);
+            Func<int, int, long> add2 = Sum2;
+            long result = add2(10, 10);
             Console.WriteLine(result);
             Console.WriteLine("---");
 
@@ -38,7 +38,6 @@ namespace RS2.FuncDelegate
             result = add3(10.5, 10, 10.48);
             Console.WriteLine(result);
             Console.WriteLine("---");
-
         }
     }
 

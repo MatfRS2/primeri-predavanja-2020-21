@@ -14,13 +14,13 @@ namespace RS2.SimpleValueTuple
     {
         static void Main()
         {
-            var person1 = (1, "Miki", "Maus");
+            ValueTuple<int, string, string> person1 = (1, "Miki", "Maus");
             Console.WriteLine(person1.Item1); // 1
             Console.WriteLine(person1.Item2); // "Miki"
             Console.WriteLine(person1.Item3); // "Maus"
             Console.WriteLine("---");
 
-            ValueTuple<int, string, string> person2 = (1, "Miki", "Maus");
+            var person2 = (1, "Miki", "Maus");
             Console.WriteLine(person2.Item1); // 1
             Console.WriteLine(person2.Item2); // "Miki"
             Console.WriteLine(person2.Item3); // "Maus"
@@ -53,6 +53,7 @@ namespace RS2.SimpleValueTuple
             var numbers = (1, 2, 3, 4, 5, 6, 7, 8, "9", "10", 11, 12, 13, 14);
             Console.WriteLine(numbers.Item1); // 1
             Console.WriteLine(numbers.Item10); // "10"
+            Console.WriteLine("---");
         }
 
     }

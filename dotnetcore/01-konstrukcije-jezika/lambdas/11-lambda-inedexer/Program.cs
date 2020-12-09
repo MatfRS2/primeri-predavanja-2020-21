@@ -15,12 +15,12 @@ namespace RS2.LambdaIndexer
             elementi[3] = "Cetiri";
             for (int i = 0; i < elementi.Dimenzija; i++)
                 Console.WriteLine(elementi[i]);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             elementi[7] = "Osam";
             for (int i = 0; i < elementi.Dimenzija; i++)
                 Console.WriteLine(elementi[i]);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
         }
 

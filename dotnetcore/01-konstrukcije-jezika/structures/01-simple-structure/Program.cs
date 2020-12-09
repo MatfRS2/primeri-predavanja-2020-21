@@ -26,23 +26,23 @@ namespace RS2.SimpleStructure
             Coordinate point1 = new Coordinate();
             Console.WriteLine(point1.x);  
             Console.WriteLine(point1.y);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             point1.x = 5;
             point1.y = -7;
             Console.WriteLine(point1.x);
             Console.WriteLine(point1.y);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             Coordinate point2;
-            
             //Sledeca linija prouzrokuje gresku pri prevodjenju
             //Console.Write(point2.x);   
 
             point2.x = 10;
             point2.y = 20;
             Console.WriteLine(point2.x);   
-            Console.WriteLine(point2.y);  
+            Console.WriteLine(point2.y);
+            Console.WriteLine("---");
         }
 
     }

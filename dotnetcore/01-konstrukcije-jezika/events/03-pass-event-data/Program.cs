@@ -40,7 +40,7 @@ namespace RS2.PassEventData
                 // potom se ispaljuje dogadjaj
                 Console.WriteLine("BL: Ispali dogadjaj!");
                 data.IsSuccessful = true;
-                data.CompletionTime = DateTime.Now;
+                data.CompletionTime = DateTime.Now.AddMinutes(5);
                 FireProcessCompleted(data);
                 // some code here..
                 Console.WriteLine("BL: Simulacija izvrsvanja prograskog koda!");

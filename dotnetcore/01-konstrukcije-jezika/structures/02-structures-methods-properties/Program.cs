@@ -54,19 +54,19 @@ namespace RS2.StructuresMethodsProperties
             Coordinate point = new Coordinate(10,20);
             Console.WriteLine(point.x);  
             Console.WriteLine(point.y);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             point.SetOrigin();
             point.x += 2;
             point.y -= 3;
             Console.WriteLine(point.x);
             Console.WriteLine(point.y);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             Coordinate point2 = Coordinate.GetOrigin();
             Console.WriteLine(point2.x);
             Console.WriteLine(point2.y);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
         }
 

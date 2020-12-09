@@ -44,6 +44,7 @@ namespace RS2.PredicateDelegate
             else
                 Console.WriteLine("Text '{0}' is not all in lower cases!", text);
             Console.WriteLine();
+
         }
     }
 }

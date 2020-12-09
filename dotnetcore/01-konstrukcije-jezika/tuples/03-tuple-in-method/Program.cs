@@ -32,6 +32,7 @@ namespace RS2.TupleInMethod
 
             var person2 = Tuple.Create(21, "Dusko", "Dugousko");
             DisplayTuple(person2);
+            Console.WriteLine("---");
         }
 
     }

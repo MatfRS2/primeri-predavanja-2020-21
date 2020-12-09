@@ -17,29 +17,29 @@ namespace RS2.EventHandlerSample
     public class BusinessLogic
     {
         // deklarisanje dogadjaja
-        public event EventHandler ProcessCompleted;
+        public event EventHandler ProcesOkoncan;
 
         // metoda u okviru koje se ispaljuje dogadjaj
         public void StartProcess()
         {
             Console.WriteLine("BL: Metod je pokrenut!");
             // some code here..
-            Console.WriteLine("BL: Simulacija izvrsvanja prograskog koda!");
+            Console.WriteLine("BL: Simulacija izvrsavanja programskog koda!");
             Thread.Sleep(500);
             // potom se ispaljuje dogadjaj
             Console.WriteLine("BL: Ispali dogadjaj!");
-            FireProcessCompleted(EventArgs.Empty);
+            IspaliProcesOkoncan(EventArgs.Empty);
             // some code here..
-            Console.WriteLine("BL: Simulacija izvrsvanja prograskog koda!");
+            Console.WriteLine("BL: Simulacija izvrsavanja prograskog koda!");
             Thread.Sleep(500);
             Console.WriteLine("BL: Gotovo!");
         }
 
         // metod koji ispaljuje dogadjaj
-        protected virtual void FireProcessCompleted(EventArgs e)
+        protected virtual void IspaliProcesOkoncan(EventArgs e)
         {
-            if(ProcessCompleted != null)
-                ProcessCompleted.Invoke(this, e);
+            if(ProcesOkoncan != null)
+                ProcesOkoncan.Invoke(this, e);
         }
     }
 
@@ -49,7 +49,7 @@ namespace RS2.EventHandlerSample
         {
             BusinessLogic bl = new BusinessLogic();
             // registruj rukovaoca za dogadjaj
-            bl.ProcessCompleted += onProcessCompleted; 
+            bl.ProcesOkoncan += onProcessCompleted; 
 
             bl.StartProcess();
         }

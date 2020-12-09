@@ -24,9 +24,9 @@ namespace RS2.BreakfastSync
         {
             for (int kriska = 0; kriska < brojKriski; kriska++)
             {
-                Console.WriteLine(">>>Pecenje tost hleba: stavlja se kriska helba u toster.");
+                Console.WriteLine(">>>Pecenje tost hleba: stavlja se kriska hleba u toster.");
             }
-            Console.WriteLine(">>>Pecenje tost hleba: pocinje thleb da se pece...");
+            Console.WriteLine(">>>Pecenje tost hleba: pocinje hleb da se pece...");
             Task.Delay(3000).Wait();
             Console.WriteLine(">>>Pecenje tost hleba: uklanjaju se ispecene kriske hleba iz tostera.");
             return new Tost();
@@ -43,13 +43,13 @@ namespace RS2.BreakfastSync
             }
             Console.WriteLine(">>>Przenje slanine: przenje druge strane slanine......");
             Task.Delay(3000).Wait();
-            Console.WriteLine(">>>Przenje slanine: postavljanje ispryene slanine u tanjir");
+            Console.WriteLine(">>>Przenje slanine: postavljanje isprzene slanine u tanjir");
             return new Slanina();
         }
 
         private static Jaje IsprziJaja(int koliko)
         {
-            Console.WriteLine(">>>Przenje jaja: zagrejavanje tanjira za przenje jaja...");
+            Console.WriteLine(">>>Przenje jaja: zagrejavanje tiganja za przenje jaja...");
             Task.Delay(3000).Wait();
             Console.WriteLine($">>>Przenje jaja: lupanje {koliko} jaja.");
             Console.WriteLine(">>>Przenje jaja: przenje jaja...");

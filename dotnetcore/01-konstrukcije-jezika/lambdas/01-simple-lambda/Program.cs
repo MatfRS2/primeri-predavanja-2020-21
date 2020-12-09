@@ -44,13 +44,14 @@ namespace RS2.SimpleLambda
                 set { age = value; }
             }
         }
+
         static void Main(string[] args)
         {
             // akcija preko lambde
             Action linija = () => Console.WriteLine();
 
             // jos jedna akcija preko lambde
-            Action<string> upisiPaLinija = (x) => Console.WriteLine(x);
+            Action<string> upisiPaLinija = x => Console.WriteLine(x);
 
             // funkcija preko lambda izraza
             Func<int, int> square = x => x * x;
@@ -67,7 +68,7 @@ namespace RS2.SimpleLambda
             Predicate<Student> upitTeen = delegate (Student s) { return s.Age > 12 && s.Age < 20; };
 
             // isti predikat preko lambda izraza
-            upitTeen = (s) => (s.Age > 12 && s.Age < 20);
+            upitTeen = s => (s.Age > 12 && s.Age < 20);
 
             // koriscenje pretikata
             Student[] studenti =

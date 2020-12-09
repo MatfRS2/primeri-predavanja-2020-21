@@ -58,30 +58,45 @@ namespace RS2.OptionalParams
         {
             prikazOdDo(35, 40);
             prikazOdDo();
-            Console.WriteLine();
+            Console.WriteLine("---");
+
+            prikazOdDo(zakljucno: 35, pocev: 40);
+            prikazOdDo(zakljucno:35);
+            Console.WriteLine("---");
 
             StampajViseLinija(3);
             StampajViseLinija();
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             int z = BrojSlova("123 Miki Maus 123");
             Console.WriteLine(z);
             Console.WriteLine(Nalepi("Miki Maus ", 4));
             Console.WriteLine(Nalepi("Paja Patak "));
             Console.WriteLine(Nalepi(brojPonavljanja:3, s: "Raja Patak "));
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             Prikaz2("Baja", 90, "Patak");
             Prikaz2("Miki", 95);
             Prikaz2("Baja");
             Prikaz2();
             Prikaz2(lname: "Patak", fname: "Paja");
-            Console.WriteLine();
+            Prikaz2(lname: "Patak");
+            Console.WriteLine("---");
         }
     }
 }
 
 /* Izlaz dobijen prilikom izvrsavanja programa:
+
+35
+36
+37
+38
+39
+40
+40
+41
+42
 
 -- 0 --
 -- 1 --

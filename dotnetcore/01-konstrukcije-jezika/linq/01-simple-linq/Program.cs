@@ -134,7 +134,7 @@ namespace RS2.SimpleLinq
             Console.WriteLine("---");
 
             // Use LINQ (method syntax) to find first student whose name is Bill 
-            Student bill = sviStudenti.FirstOrDefault(s => s.StudentName == "Bill");
+            Student bill = sviStudenti.Where(s => s.StudentName == "Bill").FirstOrDefault();
             Console.WriteLine("{0} - {1}, {2}", bill.StudentId, bill.StudentName, bill.Age);
             Console.WriteLine("---");
 
@@ -155,7 +155,7 @@ namespace RS2.SimpleLinq
             // Use LINQ (query syntax) to find student whose StudentId is 5
             studentiEnum = from s in sviStudenti
                            where s.StudentId == 5
-                           select s; 
+                           select s;
             student5 = studentiEnum.FirstOrDefault();
             Console.WriteLine("{0} - {1}, {2}", student5.StudentId, student5.StudentName, student5.Age);
             Console.WriteLine("---");

@@ -11,12 +11,12 @@ namespace RS2.InitializationExpression
                 BrojPonavljanja = 2, 
                 Sadrzaj = "YYY"};
             p.PrikazNaKonzolu();
-            Console.WriteLine();
+            Console.WriteLine("+++");
 
             p.BrojPonavljanja = 3;
             p.Sadrzaj = "Miki Maus";
             p.PrikazNaKonzolu();
-            Console.WriteLine();
+            Console.WriteLine("+++");
         }
         /*
         Program output: 

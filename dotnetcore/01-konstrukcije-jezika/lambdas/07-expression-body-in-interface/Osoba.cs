@@ -2,16 +2,16 @@ namespace RS2.LambdaExpressionInInterface
 {
     public class Osoba
     {
-        private string _firstName;
-        private string _lastName;
+        private string firstName;
+        private string lastName;
     
         public Osoba(string first, string last)
         {
-            _firstName = first;
-            _lastName = last;
+            this.firstName = first;
+            this.lastName = last;
         }
 
-        public string Name => $"{_firstName} {_lastName}";
+        public string Name => $"{firstName} {lastName}";
 
     }
 }

@@ -40,7 +40,7 @@ namespace RS2.TupleDeconstruction
 
             (_, _, var prezime) = GetPerson();
             Console.WriteLine(prezime);
-
+            Console.WriteLine("---");
         }
 
     }

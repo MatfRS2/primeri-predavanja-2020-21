@@ -2,25 +2,25 @@ namespace RS2.LambdaExpressionInInterface
 {
     public class Artikal
     {
-        string _name;
-        decimal _cost;
+        string name;
+        decimal cost;
 
         public Artikal(string name, decimal cost)
         {
-            _name = name;
-            _cost = cost;
+            this.name = name;
+            this.cost = cost;
         }
 
         public string Name
         {
-            get => _name;
-            set => _name = value;
+            get => name;
+            set => name = value;
         }
 
         public decimal Price
         {
-            get => _cost;
-            set => _cost = value;
+            get => cost;
+            set => cost = value;
         }       
     }
 }

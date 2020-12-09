@@ -73,7 +73,7 @@ namespace RS2.StructuresEvents
             Coordinate point = new Coordinate();
             Console.WriteLine(point.x);
             Console.WriteLine(point.y);
-            Console.WriteLine();
+            Console.WriteLine("---");
 
             point.CoordinatesChanged += StructEventHandler;
 
@@ -81,15 +81,12 @@ namespace RS2.StructuresEvents
             point.y -= 3;
             Console.WriteLine(point.x);
             Console.WriteLine(point.y);
-            Console.WriteLine();
-
+            Console.WriteLine("---");
 
             point.SetOrigin();            
             Console.WriteLine(point.x);
             Console.WriteLine(point.y);
-            Console.WriteLine();
-
-
+            Console.WriteLine("---");
         }
 
     }

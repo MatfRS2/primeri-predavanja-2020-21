@@ -11,7 +11,7 @@ Uobicajeni scenario je da izdavac ispali dogadjaj kada se dogodi neka akcija. Pr
 notifikacije kada se dogodi ta akcija treba da se registuju tj. pretplate na taj dogadjaj. Prilikom registracije, pretplatnik 
 specificira kako ce odgovoriti u slucaju nastupanja dogadjaja tj. specificira "rukovaoca" (handler) ya dati dogadjaj. 
 
-U jeziku C#, dogadjaj je realizovan kao enkapsulacija delegata i on zavisi od delegata. Preciynije, preko delegata se definse
+U jeziku C#, dogadjaj je realizovan kao enkapsulacija delegata i on zavisi od delegata. Preciznije, preko delegata se definse
 potpis za rukovaoca dogadjaja kod pretplatnika.
 
  */

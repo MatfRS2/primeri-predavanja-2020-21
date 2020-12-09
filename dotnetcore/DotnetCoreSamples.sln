@@ -40,7 +40,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-records", "16-records", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.case", "01-konstrukcije-jezika\functions\01-simple-case\01.simple.case.csproj", "{2EE7C9C0-553E-4E87-9996-15F19EDD8CB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.optional.params", "01-konstrukcije-jezika\functions\02-optional-params\02.optional.params.csproj", "{13371851-D5AD-4C44-934A-D6E9ECEF2D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.optional.named.params", "01-konstrukcije-jezika\functions\02-optional-params\02.optional.named.params.csproj", "{13371851-D5AD-4C44-934A-D6E9ECEF2D74}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.out.params", "01-konstrukcije-jezika\functions\03-out-param\03.out.params.csproj", "{D97993EB-8357-4CE2-8B81-47387A3DCF1E}"
 EndProject
@@ -78,7 +78,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.property.backing.field",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.prpoperty.hiding", "01-konstrukcije-jezika\properties\03-property-hide-base-class\03.prpoperty.hiding.csproj", "{DF02DA41-E9DB-4BF8-B0ED-FBE6BC7B1ECC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.property.abstract", "01-konstrukcije-jezika\properties\04-property-abstract\04.property.abstract.csproj", "{66B49A6D-6370-4B21-81B5-98B5F73F5EF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.property.abstract", "01-konstrukcije-jezika\properties\04-property-abstract\05.property.abstract.csproj", "{66B49A6D-6370-4B21-81B5-98B5F73F5EF3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.enum", "01-konstrukcije-jezika\enums\01-simple-case\01.simple.enum.csproj", "{1021AD4A-0876-4E08-895B-21F52DAD35E0}"
 EndProject
@@ -170,7 +170,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.structures.events", "01-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.generic.constraint", "01-konstrukcije-jezika\generics\03-generic-constraints\03.generic.constraint.csproj", "{AFE7AD08-8A0C-4EDC-98B3-D6DE85CB2864}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.auto-.implemented", "01-konstrukcije-jezika\properties\05-auto-implemented\05.auto-.implemented.csproj", "{8D370113-A65F-4191-B66B-9FF11CC94AF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.auto-.implemented", "01-konstrukcije-jezika\properties\05-auto-implemented\04.auto-.implemented.csproj", "{8D370113-A65F-4191-B66B-9FF11CC94AF3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.simple.tuple", "01-konstrukcije-jezika\tuples\01-simple-tuple\01.simple.tuple.csproj", "{0938BDE1-A8BF-4984-8897-3D0F82C4778A}"
 EndProject

@@ -26,9 +26,10 @@ namespace RS2.ActionDelegate
             printActionDel(10);
             Console.WriteLine("---");
 
-            printActionDel = delegate (int i) { Console.WriteLine(i); };
+            printActionDel = delegate (int i) { Console.WriteLine("++" + i); };
             printActionDel(10);
             Console.WriteLine("---");
+
         }
     }
 }
