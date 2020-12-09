@@ -28416,3 +28416,5 @@ docker/_geting_started/08-multy-container/app/node_modules/minimist/test/dash.js
 /docker/mssql-server-volume-compose/data-mssql/log/core.sqlservr.11_25_2020_20_09_17.7.d/log/thread_information.log
 /docker/mssql-server-volume-compose/data-mssql/log/core.sqlservr.11_25_2020_20_09_17.7.json
 /docker/mssql-server-volume-compose/data-mssql/log/core.sqlservr.11_25_2020_20_09_17.7.txt
+/docker/08-gs-app-nodejs-multy-container/app/node_modules
+/docker/09-gs-app-nodejs-compose/app/node_modules
